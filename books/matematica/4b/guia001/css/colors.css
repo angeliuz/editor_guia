@@ -1,0 +1,64 @@
+/* COLORES */
+.color-primary {
+  color: #318ecc;
+}
+.color-secundary {
+  color: #ec7a2f;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-77 {
+  color: #e09d77;
+}
+.color-2F {
+  color: #ec7a2f;
+}
+.color-9F {
+  color: #9f9f9f;
+}
+.color-2E {
+  color: #2e2e2e;
+}
+.color-4F {
+  color: #55524f;
+}
+.color-CC {
+  color: #318ecc;
+}
+
+.bgc-aqua {
+  background-color: aqua;
+}
+.bgc-red {
+  background-color: red;
+}
+.bgc-yellow {
+  background-color: yellow;
+}
+.bgc-green {
+  background-color: green;
+}
+.bgc-pink {
+  background-color: pink;
+}
+.bgc-CC {
+  background-color: #318ecc;
+}
+
+/* BORDES */
+
+.border-color-CC {
+  border-color: #318ecc !important;
+}
+.border-color-2E {
+  border-color: #2e2e2e !important;
+}
+.border-color-4F {
+  border-color: #55524f !important;
+}
+.border-color-9F {
+  border-color: #9f9f9f !important;
+}

@@ -1,0 +1,187 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Nunito-ExtraBold
+FamilyName:Nunito
+StyleName:ExtraBold
+MenuName:Nunito ExtraBold
+StyleBits:0
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Nunito ExtraBold
+WritingScript:Roman
+OutlineFileName:\Nunito-ExtraBold.ttf
+DataFormat:sfntData
+FileLength:154852
+FileModTime:1630092600
+NameArray:0,Win,1,Nunito ExtraBold
+NameArray:0,Win,16,Nunito
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Livvic-Bold
+FamilyName:Livvic
+StyleName:Bold
+MenuName:Livvic
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Livvic Bold
+WritingScript:Roman
+OutlineFileName:\Livvic-Bold.ttf
+DataFormat:sfntData
+FileLength:103632
+FileModTime:1630092600
+NameArray:0,Win,1,Livvic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Nunito-Light
+FamilyName:Nunito
+StyleName:Light
+MenuName:Nunito Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Nunito Light
+WritingScript:Roman
+OutlineFileName:\Nunito-Light.ttf
+DataFormat:sfntData
+FileLength:151364
+FileModTime:1630092600
+NameArray:0,Win,1,Nunito Light
+NameArray:0,Win,16,Nunito
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Nunito-Regular
+FamilyName:Nunito
+StyleName:Regular
+MenuName:Nunito
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Nunito Regular
+WritingScript:Roman
+OutlineFileName:\Nunito-Regular.ttf
+DataFormat:sfntData
+FileLength:152932
+FileModTime:1630092600
+NameArray:0,Win,1,Nunito
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Nunito-SemiBold
+FamilyName:Nunito
+StyleName:SemiBold
+MenuName:Nunito SemiBold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Nunito SemiBold
+WritingScript:Roman
+OutlineFileName:\Nunito-SemiBold.ttf
+DataFormat:sfntData
+FileLength:153116
+FileModTime:1630092600
+NameArray:0,Win,1,Nunito SemiBold
+NameArray:0,Win,16,Nunito
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Livvic-SemiBold
+FamilyName:Livvic
+StyleName:SemiBold
+MenuName:Livvic SemiBold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Livvic SemiBold
+WritingScript:Roman
+OutlineFileName:\Livvic-SemiBold.ttf
+DataFormat:sfntData
+FileLength:103352
+FileModTime:1630092600
+NameArray:0,Win,1,Livvic SemiBold
+NameArray:0,Win,16,Livvic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Nunito-Bold
+FamilyName:Nunito
+StyleName:Bold
+MenuName:Nunito
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Nunito Bold
+WritingScript:Roman
+OutlineFileName:\Nunito-Bold.ttf
+DataFormat:sfntData
+FileLength:152748
+FileModTime:1630092600
+NameArray:0,Win,1,Nunito
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Livvic-Regular
+FamilyName:Livvic
+StyleName:Regular
+MenuName:Livvic
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Livvic Regular
+WritingScript:Roman
+OutlineFileName:\Livvic-Regular.ttf
+DataFormat:sfntData
+FileLength:103216
+FileModTime:1630092600
+NameArray:0,Win,1,Livvic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Nunito-Italic
+FamilyName:Nunito
+StyleName:Italic
+MenuName:Nunito
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Nunito Italic
+WritingScript:Roman
+OutlineFileName:\Nunito-Italic.ttf
+DataFormat:sfntData
+FileLength:157328
+FileModTime:1630092600
+NameArray:0,Win,1,Nunito
+%EndFont
+
