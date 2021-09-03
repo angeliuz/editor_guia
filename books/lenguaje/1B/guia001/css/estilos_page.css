@@ -1,0 +1,15 @@
+.fondo-page1 {
+  background: url(../images/bg_pagina1.svg) top left/cover no-repeat !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
+.fondo-page2 {
+  background: url(../images/bg_pagina2.svg) top left/cover no-repeat !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
+.fondo-page3 {
+  background: url(../images/bg_pagina3.svg) top left/cover no-repeat !important;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
