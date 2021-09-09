@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Cookie&family=Handlee&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+/* 
+font-family: 'Livvic', sans-serif;
+font-family: 'Nunito', sans-serif; */
+/* font-family: 'Cabin Sketch', cursive;
+font-family: 'Lobster', cursive; */
+
+@font-face {
+  font-family: "hanoded";
+  src: url("../fonts/Hanoded_ButterflyBall.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* WIDTH */
 .w-5 {
   width: 5%;
@@ -3019,11 +3034,17 @@
   border-radius: 200%;
 }
 
-.rounded-set-20 { border-radius: 20px 20px 0px 0px; }
+.rounded-set-20 {
+  border-radius: 20px 20px 0px 0px;
+}
 
-.rounded-seb-20 { border-radius: 0px 0px 20px 20px; }
+.rounded-seb-20 {
+  border-radius: 0px 0px 20px 20px;
+}
 
-.rounded-seb-20 { border-radius: 0px 0px 20px 20px; }
+.rounded-seb-20 {
+  border-radius: 0px 0px 20px 20px;
+}
 
 .mhp-150 {
   min-height: 150px !important;
