@@ -831,6 +831,9 @@ font-family: 'Lobster', cursive; */
   margin-right: 200%;
 }
 
+.mep-5 {
+  margin-right: 5px;
+}
 .mep-20 {
   margin-right: 20px;
 }
@@ -1053,6 +1056,10 @@ font-family: 'Lobster', cursive; */
 }
 .mt-200 {
   margin-top: 200%;
+}
+
+.mtp-5 {
+  margin-top: 5px;
 }
 
 .mtp-20 {
@@ -1281,6 +1288,9 @@ font-family: 'Lobster', cursive; */
 
 .mbp-20 {
   margin-bottom: 20px;
+}
+.mbp-5 {
+  margin-bottom: 5px;
 }
 .mbp-25 {
   margin-bottom: 25px;
