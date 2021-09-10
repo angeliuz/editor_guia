@@ -2678,8 +2678,17 @@ font-family: 'Lobster', cursive; */
 .fsp-10 {
   font-size: 10px;
 }
+.fsp-13 {
+  font-size: 13px;
+}
+.fsp-14 {
+  font-size: 14px;
+}
 .fsp-15 {
   font-size: 15px;
+}
+.fsp-16 {
+  font-size: 16px;
 }
 .fsp-18 {
   font-size: 18px;
