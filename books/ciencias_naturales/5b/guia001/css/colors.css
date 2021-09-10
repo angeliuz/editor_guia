@@ -62,7 +62,10 @@
 .border-color-lightDark {
   border-color: #9f9f9f !important;
 }
+.border-color-light {
+  border-color: #b5b5b5 !important;
+}
 
 .color-info {
-  color:#0398e1
+  color: #0398e1;
 }
