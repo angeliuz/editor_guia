@@ -5,23 +5,23 @@
 .color-secondary {
   color: #e72889;
 }
-
 .color-tertiary {
   color: #d8edec;
 }
 .color-white {
   color: white;
 }
-
 .color-lightDark {
   color: #9f9f9f;
 }
 .color-dark {
   color: #55524f;
 }
-
 .color-hardDark {
   color: #2e2e2e;
+}
+.color-flecha {
+  color: #00B0F6;
 }
 
 .bgc-tertiary {
@@ -61,8 +61,4 @@
 }
 .border-color-lightDark {
   border-color: #9f9f9f !important;
-}
-
-.color-info {
-  color:#0398e1
 }
