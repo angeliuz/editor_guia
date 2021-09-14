@@ -24,9 +24,7 @@
   color: #00B0F6;
 }
 
-.bgc-tertiary {
-  background-color: #d8edec;
-}
+
 
 .bgc-aqua {
   background-color: aqua;
@@ -48,6 +46,17 @@
   background-color: #73b72b;
 }
 
+.bgc-secondary {
+  background-color: #feecc8;
+}
+
+.bgc-tertiary {
+  background-color: #d8edec;
+}
+
+.bgc-cuaternary {
+  background-color: #ebd8e8;
+}
 /* BORDES */
 
 .border-color-primary {
