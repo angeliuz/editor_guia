@@ -61,7 +61,7 @@ $(document).on("ready", function () {
   ];
   function populateMenu(menu) {
     console.log(menu.length);
-
+    $(".js-shortcode-filter-result").html("");
     for (let i = 0; i < menu.length; i++) {
       let botonSolo = "";
       if (menu[i].submenus) {
@@ -92,7 +92,7 @@ $(document).on("ready", function () {
         botonSolo += "</div>";
         botonSolo += "</li>";
 
-        $(".menu").append(botonSolo);
+        $(".js-shortcode-filter-result").append(botonSolo);
       } else {
         botonSolo =
           '<li class="js-shortcode-filter__item nav-item bases"><a href="' +
@@ -100,7 +100,7 @@ $(document).on("ready", function () {
           '" class="nav-link ">' +
           menu[i].title +
           "</a></li>";
-        $(".menu").append(botonSolo);
+        $(".js-shortcode-filter-result").append(botonSolo);
       }
     }
   }
