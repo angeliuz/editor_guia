@@ -3052,17 +3052,21 @@ font-family: 'Lobster', cursive; */
 .rounded-200 {
   border-radius: 200%;
 }
-
+/*arriba redondeado / abajo plano */
 .rounded-set-20 {
   border-radius: 20px 20px 0px 0px;
 }
-
+/*abajo redondeado / arriba plano */
 .rounded-seb-20 {
   border-radius: 0px 0px 20px 20px;
 }
-
-.rounded-seb-20 {
-  border-radius: 0px 0px 20px 20px;
+/*redondeado derecha, plano izquerda*/
+.rounded-tbe-20 {
+  border-radius: 0px 20px 20px 0px; 
+}
+/*redondeado izquierda, plano derecha*/
+.rounded-tbs-20 {
+  border-radius: 20px 0px 0px 20px; 
 }
 
 .mhp-150 {
