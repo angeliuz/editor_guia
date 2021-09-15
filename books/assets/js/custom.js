@@ -60,7 +60,6 @@ $(document).on("ready", function () {
     },
   ];
   function populateMenu(menu) {
-    console.log(menu.length);
     $(".js-shortcode-filter-result").html("");
     for (let i = 0; i < menu.length; i++) {
       let botonSolo = "";
