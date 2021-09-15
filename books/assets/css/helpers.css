@@ -3210,6 +3210,9 @@ font-family: 'Lobster', cursive; */
 .rounded-set-20 {
   border-radius: 20px 20px 0px 0px;
 }
+.rounded-set-6 {
+  border-radius: 6px 6px 0px 0px !important;
+}
 /*abajo redondeado / arriba plano */
 .rounded-seb-20 {
   border-radius: 0px 0px 20px 20px;
