@@ -1,0 +1,28 @@
+[
+    {
+        "title": "menu 1",
+        "submenus": [
+            {
+                "title": "sub menu1"
+            },
+            {
+                "title": "sub menu2",
+                "submenus": [
+                    {
+                        "title": "subsub menu1",
+                        "submenus": [
+                            {
+                                "title": "susubsub menu1"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "subsub menu2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "menu 2"
+    }]
