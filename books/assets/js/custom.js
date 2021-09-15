@@ -66,6 +66,13 @@ $(document).on("ready", function () {
       let botonSolo = "";
       if (menu[i].submenus) {
         console.log(menu[i].submenus);
+        botonSolo =
+          '<li class="js-shortcode-filter__item nav-item bases"><a href="' +
+          menu[i].enlace +
+          '" class="nav-link ">' +
+          menu[i].title +
+          "</a></li>";
+        $(".menu").append(botonSolo);
       } else {
         botonSolo =
           '<li class="js-shortcode-filter__item nav-item bases"><a href="' +
