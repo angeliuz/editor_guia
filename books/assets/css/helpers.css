@@ -3204,7 +3204,10 @@ font-family: 'Lobster', cursive; */
 }
 /*arriba redondeado / abajo plano */
 .rounded-set-20 {
-  border-radius: 20px 20px 0px 0px !important;
+  border-radius: 20px 20px 0px 0px;
+}
+.rounded-set-10 {
+  border-radius: 10px 10px 0px 0px !important;
 }
 /*abajo redondeado / arriba plano */
 .rounded-seb-20 {
