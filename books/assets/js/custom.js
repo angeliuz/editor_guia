@@ -65,13 +65,33 @@ $(document).on("ready", function () {
     for (let i = 0; i < menu.length; i++) {
       let botonSolo = "";
       if (menu[i].submenus) {
-        console.log(menu[i].submenus);
-        botonSolo =
-          '<li class="js-shortcode-filter__item nav-item bases"><a href="' +
-          menu[i].enlace +
-          '" class="nav-link ">' +
+        //console.log(menu[i].submenus);
+        botonSolo +=
+          '<li class="js-shortcode-filter__item nav-item dropdown bases">';
+        botonSolo +=
+          '<a class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">' +
           menu[i].title +
-          "</a></li>";
+          "</a>";
+        botonSolo +=
+          '<div class="dropdown-menu u-dropdown-static" style="background-color:#1c2434; width: calc(100% - 20px)">';
+        botonSolo += '  <ul class="nav flex-column">';
+
+        for (let a = 0; a < menu[i].submenus.length; a++) {
+          console.log(menu[i].submenus[a].title);
+          botonSolo +=
+            '    <li class="js-shortcode-filter__item nav-item bases">';
+          botonSolo +=
+            '      <a href="' +
+            menu[i].submenus[a].enlace +
+            '" class="nav-link ">' +
+            menu[i].submenus[a].title +
+            "</a>";
+          botonSolo += "    </li>";
+        }
+        botonSolo += "  </ul>";
+        botonSolo += "</div>";
+        botonSolo += "</li>";
+
         $(".menu").append(botonSolo);
       } else {
         botonSolo =
