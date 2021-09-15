@@ -3236,6 +3236,10 @@ font-family: 'Lobster', cursive; */
   min-height: 100% !important;
 }
 
+.mw-width{
+  min-width : 120px;
+}
+
 /* Z-INDEX */
 .zindex-1 {
   z-index: 1;

@@ -48,6 +48,19 @@
 
   <link href="ciencias_naturales/5b/guia001/css/colors.css" rel="stylesheet">
 
+<style type="text/css">
+li.collapsed > ul { display: none }
+ul { cursor: pointer }
+li.collapsed, li.expanded, li.leaf {
+    position: relative;
+    list-style-type: none;
+    text-indent: -2em;
+}
+li.expanded:before { content: '−  ' }
+li.collapsed:before { content: '+  ' }
+li.leaf:before { content: '○  ' }
+</style>
+
 </head>
 
 <body class="u-body--header-side-push-left u-body--header-side-opened u-has-sidebar-navigation g-overflow-x-hidden">
@@ -66,8 +79,12 @@
         <div class="u-sidebar-navigation-inner" style="height:100vh !important" >
 
           <h3 class="h5 g-px-20 g-mb-20">LDSM 2021 Shortcodes</h3>
+          <ul class="js-shortcode-filter-result nav flex-column u-sidebar-navigation-list menu">
 
-          <ul class="js-shortcode-filter-result nav flex-column u-sidebar-navigation-list">
+          </ul>
+          
+
+          <!-- <ul class="js-shortcode-filter-result nav flex-column u-sidebar-navigation-list">
             <li class="js-shortcode-filter__item nav-item bases">
               <a href="index.html" class="nav-link ">Títulos (Claudia)</a>
             </li>
@@ -105,7 +122,7 @@
               <a href="shortcode-elementos.html" class="nav-link ">Elementos</a>
             </li>
             
-          </ul>
+          </ul> -->
 
           <button class="btn u-sidebar-navigation__closer" id="sideNav-toggler-closer" aria-haspopup="true" aria-expanded="false" aria-controls="sideNav" aria-label="Toggle Header" data-target="#sideNav">
             <i class="hs-icon hs-icon-close"></i>
@@ -224,7 +241,7 @@
                             data-content-target="#shortcode2" data-success-text="Copied">
                             <i class="fa fa-clone"></i>
                             Copiar código
-                        </a>
+                          </a>
                     </div>
                     <!-- End Show Code -->
             
@@ -232,7 +249,44 @@
             </div>
             <!-- End Background Colored -->
             <hr>
-           
+            <!-- Background Colored -->
+            <div class="row">
+            
+              <div class="col-md-12">
+                  <div id="shortcode2">
+                    <div class="shortcode-html">
+                      
+                      <!-- COMPONENTE CAPSULA CONTENIDO-->
+                      <div class="p-0 w-100">
+                        <div class="recursos-bullet border border-color-primary text-dark mx-auto fs-7 wp-200">
+                            <strong class="fw-800 fs-6 mb-2 d-block bgc-green text-white p-1 ps-2">Recursos digitales</strong>
+                            <div class="p-1">Observa este <strong>video</strong> y descubre los múltiples usos del petróleo y sus manifestaciones en la vida cotidiana.</div>
+                        </div>
+                      </div>
+                      <!-- END COMPONENTE CAPSULA CONTENIDO-->
+
+                    </div>
+                  </div>
+          
+                  <!-- Show Code -->
+                  <div class="g-font-size-12 g-my-30 text-center">
+                      <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                          data-content-target="#shortcode2" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                          <i class="fa fa-code"></i>
+                          Mostrar código
+                      </a>
+                      <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                          data-content-target="#shortcode2" data-success-text="Copied">
+                          <i class="fa fa-clone"></i>
+                          Copiar código
+                      </a>
+                  </div>
+                  <!-- End Show Code -->
+          
+              </div>
+          </div>
+          <!-- End Background Colored -->
+          <hr>           
             
             </div>      
 
