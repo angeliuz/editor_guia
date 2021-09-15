@@ -2970,6 +2970,9 @@ font-family: 'Lobster', cursive; */
 }
 
 /* HELPERS ROUNDED PIXELES*/
+.rounded-p-5 {
+  border-radius: 5px;
+}
 .rounded-p-10 {
   border-radius: 10px;
 }
