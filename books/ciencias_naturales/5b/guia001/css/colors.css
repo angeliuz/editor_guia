@@ -8,6 +8,11 @@
 .color-tertiary {
   color: #d8edec;
 }
+
+.color-cuaternary {
+  color: #4f707f;
+}
+
 .color-white {
   color: white;
 }
@@ -77,6 +82,7 @@
 .border-color-primary {
   border-color: #73b72b !important;
 }
+
 .border-color-hardDark {
   border-color: #2e2e2e !important;
 }

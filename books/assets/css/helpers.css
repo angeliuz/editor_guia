@@ -2970,6 +2970,9 @@ font-family: 'Lobster', cursive; */
 }
 
 /* HELPERS ROUNDED PIXELES*/
+.rounded-p-5 {
+  border-radius: 5px;
+}
 .rounded-p-10 {
   border-radius: 10px;
 }
@@ -3211,7 +3214,7 @@ font-family: 'Lobster', cursive; */
   border-radius: 20px 20px 0px 0px;
 }
 .rounded-set-6 {
-  border-radius: 6px 6px 0px 0px !important;
+  border-radius: 6px 6px 0px 0px;
 }
 /*abajo redondeado / arriba plano */
 .rounded-seb-20 {
@@ -3231,6 +3234,10 @@ font-family: 'Lobster', cursive; */
 }
 .mh-100 {
   min-height: 100% !important;
+}
+
+.mw-width{
+  min-width : 120px;
 }
 
 /* Z-INDEX */
