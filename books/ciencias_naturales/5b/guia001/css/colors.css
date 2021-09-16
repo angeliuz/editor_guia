@@ -8,9 +8,21 @@
 .color-tertiary {
   color: #d8edec;
 }
-
 .color-cuaternary {
   color: #4f707f;
+}
+
+/* .bgc-cuaternary {
+  background-color: #ebd8e8;
+} */
+.color-quinary {
+  background-color: #e85b9b;
+}
+.color-sextario {
+  background-color: #f2f7e5;
+}
+.color-septenario {
+  background-color: #bbdfb7;
 }
 
 .color-white {
@@ -26,14 +38,22 @@
   color: #2e2e2e;
 }
 .color-info {
-  color: #00B0F6;
+  color: #00b0f6;
 }
 .color-flecha {
-  color: #00B0F6;
+  color: #00b0f6;
+}
+.color-1 {
+  color: #009ddf;
+}
+.color-2 {
+  color: #e72e3c;
+}
+.color-3 {
+  color: #f1871d;
 }
 
-
-
+/* BACKGROUND */
 .bgc-aqua {
   background-color: aqua;
 }
@@ -49,40 +69,41 @@
 .bgc-pink {
   background-color: pink;
 }
-
 .bgc-primary {
   background-color: #73b72b;
 }
-
 .bgc-secondary {
   background-color: #feecc8;
 }
-
 .bgc-tertiary {
   background-color: #d8edec;
 }
-
 .bgc-cuaternary {
   background-color: #ebd8e8;
 }
-
 .bgc-quinary {
   background-color: #e85b9b;
 }
-
 .bgc-sextario {
   background-color: #f2f7e5;
 }
-
 .bgc-septenario {
   background-color: #bbdfb7;
 }
-/* BORDES */
+.bgc-1 {
+  background-color: #009ddf;
+}
+.bgc-2 {
+  background-color: #e72e3c;
+}
+.bgc-3 {
+  background-color: #f1871d;
+}
 
+/* BORDES */
 .border-color-primary {
   border-color: #73b72b !important;
 }
-
 .border-color-hardDark {
   border-color: #2e2e2e !important;
 }
@@ -92,12 +113,31 @@
 .border-color-lightDark {
   border-color: #9f9f9f !important;
 }
-.border-color-violet{
+.border-color-violet {
   border-color: #8f6a96 !important;
 }
-.border-color-lightbrown{
+.border-color-lightbrown {
   border-color: #cfab89 !important;
 }
-.border-color-calipso{
+.border-color-calipso {
   border-color: #7296ac !important;
+}
+.border-color-1 {
+  border-color: #009ddf !important;
+}
+.border-color-2 {
+  border-color: #e72e3c !important;
+}
+.border-color-3 {
+  border-color: #f1871d !important;
+}
+/* ROTULOS */
+.bgc-rotulo-01 {
+  background-color: #7f3ea2;
+}
+.bgc-rotulo-02{
+  background-color: #f68c39;
+}
+.bgc-rotulo-03 {
+  background-color: #29c4b3;
 }
