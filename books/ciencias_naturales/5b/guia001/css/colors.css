@@ -131,3 +131,13 @@
 .border-color-3 {
   border-color: #f1871d !important;
 }
+/* ROTULOS */
+.bgc-rotulo-01 {
+  background-color: #7f3ea2;
+}
+.bgc-rotulo-02{
+  background-color: #f68c39;
+}
+.bgc-rotulo-03 {
+  background-color: #29c4b3;
+}
