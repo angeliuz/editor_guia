@@ -60,19 +60,38 @@ $(document).on("ready", function () {
     },
   ];
   function populateMenu(menu) {
-    console.log(menu.length);
-
+    $(".js-shortcode-filter-result").html("");
     for (let i = 0; i < menu.length; i++) {
       let botonSolo = "";
       if (menu[i].submenus) {
-        console.log(menu[i].submenus);
-        botonSolo =
-          '<li class="js-shortcode-filter__item nav-item bases"><a href="' +
-          menu[i].enlace +
-          '" class="nav-link ">' +
+        //console.log(menu[i].submenus);
+        botonSolo +=
+          '<li class="js-shortcode-filter__item nav-item dropdown bases">';
+        botonSolo +=
+          '<a class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">' +
           menu[i].title +
-          "</a></li>";
-        $(".menu").append(botonSolo);
+          "</a>";
+        botonSolo +=
+          '<div class="dropdown-menu u-dropdown-static" style="background-color:#1c2434; width: calc(100% - 20px)">';
+        botonSolo += '  <ul class="nav flex-column">';
+
+        for (let a = 0; a < menu[i].submenus.length; a++) {
+          console.log(menu[i].submenus[a].title);
+          botonSolo +=
+            '    <li class="js-shortcode-filter__item nav-item bases">';
+          botonSolo +=
+            '      <a href="' +
+            menu[i].submenus[a].enlace +
+            '" class="nav-link ">' +
+            menu[i].submenus[a].title +
+            "</a>";
+          botonSolo += "    </li>";
+        }
+        botonSolo += "  </ul>";
+        botonSolo += "</div>";
+        botonSolo += "</li>";
+
+        $(".js-shortcode-filter-result").append(botonSolo);
       } else {
         botonSolo =
           '<li class="js-shortcode-filter__item nav-item bases"><a href="' +
@@ -80,7 +99,7 @@ $(document).on("ready", function () {
           '" class="nav-link ">' +
           menu[i].title +
           "</a></li>";
-        $(".menu").append(botonSolo);
+        $(".js-shortcode-filter-result").append(botonSolo);
       }
     }
   }
