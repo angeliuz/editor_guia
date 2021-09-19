@@ -59,6 +59,9 @@
 .border-right-dashed {
   border-right-style: dashed !important;
 }
+.border-dashed {
+  border-style: dashed !important;
+}
 
 .br-full {
   border-style: solid;

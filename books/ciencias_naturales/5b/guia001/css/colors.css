@@ -99,6 +99,22 @@
 .bgc-3 {
   background-color: #f1871d;
 }
+.bgc-4 {
+  background-color: #813da0;
+}
+.bgc-5 {
+  background-color: #25beb2;
+}
+.bgc-6 {
+  background-color: #fc8833;
+}
+.bgc-7 {
+  background-color: #12b7ee;
+}
+.bgc-8 {
+  background-color: #f5486c;
+}
+
 
 /* BORDES */
 .border-color-primary {
@@ -119,7 +135,7 @@
 .border-color-lightbrown {
   border-color: #cfab89 !important;
 }
-.border-color-calipso {
+.border-color-lightblue {
   border-color: #7296ac !important;
 }
 .border-color-1 {
@@ -130,4 +146,14 @@
 }
 .border-color-3 {
   border-color: #f1871d !important;
+}
+/* ROTULOS */
+.bgc-rotulo-01 {
+  background-color: #7f3ea2;
+}
+.bgc-rotulo-02{
+  background-color: #f68c39;
+}
+.bgc-rotulo-03 {
+  background-color: #29c4b3;
 }
