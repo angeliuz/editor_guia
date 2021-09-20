@@ -3245,14 +3245,14 @@ font-family: 'Lobster', cursive; */
   border-top-right-radius: 10px;
 }
 
-.mhp-150 {
+.min-hp-150 {
   min-height: 150px !important;
 }
-.mh-100 {
+.min-h-100 {
   min-height: 100% !important;
 }
 
-.mw-width {
+.min-wp-120 {
   min-width: 120px;
 }
 
