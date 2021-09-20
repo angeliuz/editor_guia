@@ -163,7 +163,7 @@
   /* color:  */
 }
 .color-bulma {
-  /* color:  */
+  color: #34c1ee;
 }
 .color-krillin {
   /* color:  */
@@ -192,7 +192,7 @@
   /* color:  */
 }
 .border-color-bulma {
-  /* color:  */
+  border-color: #34c1ee !important;
 }
 .border-color-krillin {
   /* color:  */
@@ -221,7 +221,7 @@
   /* color:  */
 }
 .bgc-bulma {
-  /* color:  */
+  background-color: #34c1ee;
 }
 .bgc-krillin {
   /* color:  */
