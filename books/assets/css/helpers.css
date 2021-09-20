@@ -3253,7 +3253,10 @@ font-family: 'Lobster', cursive; */
 }
 
 .min-wp-120 {
-  min-width: 120px;
+  min-width: 120px !important;
+}
+.min-wp-300 {
+  min-width: 300px !important;
 }
 
 /* Z-INDEX */
