@@ -1229,6 +1229,9 @@ font-family: 'Lobster', cursive; */
 .mtp--2 {
   margin-top: -2px;
 }
+.mtp--3 {
+  margin-top: -3px;
+}
 
 .mb-5 {
   margin-bottom: 5%;
