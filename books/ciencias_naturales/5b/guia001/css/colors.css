@@ -192,7 +192,7 @@
   /* color:  */
 }
 .border-color-bulma {
-  border-color: #34c1ee;
+  border-color: #34c1ee !important;
 }
 .border-color-krillin {
   /* color:  */
