@@ -1223,6 +1223,13 @@ font-family: 'Lobster', cursive; */
   margin-top: 200px;
 }
 
+.mtp--1 {
+  margin-top: -1px;
+}
+.mtp--2 {
+  margin-top: -2px;
+}
+
 .mb-5 {
   margin-bottom: 5%;
 }
