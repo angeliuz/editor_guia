@@ -8,9 +8,9 @@
 .color-tertiary {
   color: #d8edec;
 }
-.color-cuaternary {
+/* .color-cuaternary {
   color: #4f707f;
-}
+} */
 
 /* .bgc-cuaternary {
   background-color: #ebd8e8;
@@ -169,7 +169,7 @@
   color: #ddddd4;
 }
 .color-piccolo {
-  /* color:  */
+  color:  #4f707f;
 }
 .color-gohan {
   /* color:  */
@@ -198,7 +198,7 @@
   border-color: #ddddd4;
 }
 .border-color-piccolo {
-  /* border-color:  */
+  border-color: #4f707f;
 }
 .border-color-gohan {
   /* border-color:  */
@@ -227,7 +227,7 @@
   background-color: #ddddd4;
 }
 .bgc-piccolo {
-  /* background-color:  */
+  background-color: #4f707f;
 }
 .bgc-gohan {
   /* background-color:  */
