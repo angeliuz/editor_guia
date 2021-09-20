@@ -119,6 +119,9 @@
 .border-color-primary {
   border-color: #73b72b !important;
 }
+.border-color-secondary {
+  border-color: #e72889 !important;
+}
 .border-color-hardDark {
   border-color: #2e2e2e !important;
 }
@@ -169,7 +172,7 @@
   color: #ddddd4;
 }
 .color-piccolo {
-  color:  #4f707f;
+  color: #4f707f;
 }
 .color-gohan {
   /* color:  */
