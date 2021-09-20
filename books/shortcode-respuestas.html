@@ -52,6 +52,8 @@
 
 <body class="u-body--header-side-push-left u-body--header-side-opened u-has-sidebar-navigation g-overflow-x-hidden">
   <main>
+
+
     <!-- Shortcode Sidebar Navigation -->
     <div id="sideNav" class="u-header u-header--side u-sidebar-navigation" aria-labelledby="sideNav-toggler"
       data-header-behavior="push" data-header-position="left" data-header-breakpoint="lg"
@@ -67,43 +69,8 @@
         <div class="u-sidebar-navigation-inner" style="height:100vh !important">
 
           <h3 class="h5 g-px-20 g-mb-20">LDSM 2021 Shortcodes</h3>
+          <ul class="js-shortcode-filter-result nav flex-column u-sidebar-navigation-list menu"></ul>
 
-          <ul class="js-shortcode-filter-result nav flex-column u-sidebar-navigation-list">
-            <li class="js-shortcode-filter__item nav-item bases">
-              <a href="index.html" class="nav-link ">Títulos (Claudia)</a>
-            </li>
-            <li class="js-shortcode-filter__item nav-item bases">
-              <a href="shortcode-textos.html" class="nav-link ">Textos (Claudia)</a>
-            </li>
-            <li class="js-shortcode-filter__item nav-item bases">
-              <a href="shortcode-imagenes.html" class="nav-link ">Imágenes (Tamara)</a>
-            </li>
-            <li class="js-shortcode-filter__item nav-item bases">
-              <a href="shortcode-listas.html" class="nav-link ">Listas (Erik)</a>
-            </li>
-            <li class="js-shortcode-filter__item nav-item bases">
-              <a href="shortcode-rotulos.html" class="nav-link ">Rótulos (Claudia)</a>
-            </li>
-            <li class="js-shortcode-filter__item nav-item bases">
-              <a href="shortcode-col-img.html" class="nav-link ">Columnas imagenes (David)</a>
-            </li>
-            <li class="js-shortcode-filter__item nav-item bases">
-              <a href="shortcode-col-text.html" class="nav-link ">Columnas texto (David)</a>
-            </li>
-            <li class="js-shortcode-filter__item nav-item bases">
-              <a href="shortcode-respuestas.html" class="nav-link ">Caja de respuestas (Cristián)</a>
-            </li>
-            <li class="js-shortcode-filter__item nav-item bases">
-              <a href="shortcode-tablas.html" class="nav-link ">Tablas</a>
-            </li>
-            <li class="js-shortcode-filter__item nav-item bases">
-              <a href="shortcode-iconos.html" class="nav-link ">Iconos</a>
-            </li>
-            <li class="js-shortcode-filter__item nav-item bases">
-              <a href="shortcode-elementos.html" class="nav-link ">Elementos</a>
-            </li>
-
-          </ul>
 
           <button class="btn u-sidebar-navigation__closer" id="sideNav-toggler-closer" aria-haspopup="true"
             aria-expanded="false" aria-controls="sideNav" aria-label="Toggle Header" data-target="#sideNav">
@@ -116,9 +83,6 @@
 
 
 
-
-
-
     <section class="container-fluid g-px-0">
       <!-- Unify Alerts -->
       <section class="g-py-20">
@@ -126,17 +90,17 @@
           <!-- Heading -->
           <header class="g-mb-20">
             <div class="text-uppercase">
-              <h2 class="h4 u-heading-v6__title g-font-weight-300">Caja de respuestas</h2>
+              <h2 class="h4 u-heading-v6__title g-font-weight-300">Cajas de respuestas</h2>
             </div>
 
             <div class="g-line-height-2">
-              <p>Listado de títulos</p>
+              <p>Listado de cajas de respuestas</p>
             </div>
           </header>
+          <hr>
           <!-- End Heading -->
 
           <!-- Background Colored -->
-          <hr>
 
           <div class="row p-0 m-0">
 
@@ -148,45 +112,44 @@
                   <div class="p-0 w-100">
                     <div class="d-block w-100">
                       <div class="row p-0 m-0">
-                          <div class="col-12">
-                            <div class="d-flex align-items-center">
-                              <div class="mep-5">
-                                <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
-                              </div>
-                              <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
-                                Flex item
-                              </div>
+                        <div class="col-12">
+                          <div class="d-flex align-items-center">
+                            <div class="mep-5">
+                              <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
+                            </div>
+                            <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
+                              Flex item
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- / COMPONENTE CHECKBOX-->
-
                   </div>
-                </div>
+                  <!-- / COMPONENTE CHECKBOX-->
 
-                <!-- Show Code -->
-                <div class="g-font-size-12 g-my-30 text-center">
-                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                    data-content-target="#shortcode1" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                    <i class="fa fa-code"></i>
-                    Mostrar código
-                  </a>
-                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                    data-content-target="#shortcode1" data-success-text="Copied">
-                    <i class="fa fa-clone"></i>
-                    Copiar código
-                  </a>
                 </div>
-                <!-- End Show Code -->
-
               </div>
+
+              <!-- Show Code -->
+              <div class="g-font-size-12 g-my-30 text-center">
+                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                  data-content-target="#shortcode1" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                  <i class="fa fa-code"></i>
+                  Mostrar código
+                </a>
+                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                  data-content-target="#shortcode1" data-success-text="Copied">
+                  <i class="fa fa-clone"></i>
+                  Copiar código
+                </a>
+              </div>
+              <!-- End Show Code -->
+
             </div>
           </div>
+
+          <hr>
           <!-- End Background Colored -->
-          <hr>
-          <hr>
           <!-- Background Colored -->
           <div class="row p-0 m-0">
 
@@ -198,46 +161,44 @@
                   <div class="p-0 w-100">
                     <div class="d-block msp-70 p-0">
                       <div class="row p-0 m-0 ">
-                          <div class="col-12">
-                              <div class="d-flex align-items-center">
-                                <div class="mep-5">
-                                  <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
-                                </div>
-                                <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
-                                  Flex item
-                                </div>
-                              </div>
-                              <img src="./assets/images/sin_imagen.jpg" class="mtp-5" height="250" width="250" " alt=" ...">
+                        <div class="col-12">
+                          <div class="d-flex align-items-center">
+                            <div class="mep-5">
+                              <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
+                            </div>
+                            <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
+                              Flex item
+                            </div>
                           </div>
-
+                          <img src="./assets/images/sin_imagen.jpg" class="mtp-5" height="250" width="250" " alt=" ...">
                         </div>
+
                       </div>
                     </div>
-                    <!-- END COMPONENTE CHECKBOX ARRIBA IZQUIERDA + IMAGEN-->
-
                   </div>
-                </div>
+                  <!-- END COMPONENTE CHECKBOX ARRIBA IZQUIERDA + IMAGEN-->
 
-                <!-- Show Code -->
-                <div class="g-font-size-12 g-my-30 text-center">
-                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                    data-content-target="#shortcode2" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                    <i class="fa fa-code"></i>
-                    Mostrar código
-                  </a>
-                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                    data-content-target="#shortcode2" data-success-text="Copied">
-                    <i class="fa fa-clone"></i>
-                    Copiar código
-                  </a>
                 </div>
-                <!-- End Show Code -->
               </div>
+
+              <!-- Show Code -->
+              <div class="g-font-size-12 g-my-30 text-center">
+                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                  data-content-target="#shortcode2" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                  <i class="fa fa-code"></i>
+                  Mostrar código
+                </a>
+                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                  data-content-target="#shortcode2" data-success-text="Copied">
+                  <i class="fa fa-clone"></i>
+                  Copiar código
+                </a>
+              </div>
+              <!-- End Show Code -->
             </div>
           </div>
           <hr>
           <!-- End Background Colored -->
-          <hr>
           <!-- Background Colored -->
           <div class="row p-0 m-0">
 
@@ -249,47 +210,44 @@
                   <div class="p-0 w-100">
                     <div class="d-block msp-70 p-0">
                       <div class="row p-0 m-0 ">
-                          <div class="col-12">
-                            <img src="./assets/images/sin_imagen.jpg" class="mbp-5" height="250" width="250" " alt=" ...">
-                              <div class="d-flex align-items-center">
-                                <div class="mep-5">
-                                  <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
-                                </div>
-                                <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
-                                  Flex item
-                                </div>
-                              </div>
+                        <div class="col-12">
+                          <img src="./assets/images/sin_imagen.jpg" class="mbp-5" height="250" width="250" " alt=" ...">
+                          <div class="d-flex align-items-center">
+                            <div class="mep-5">
+                              <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
+                            </div>
+                            <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
+                              Flex item
+                            </div>
                           </div>
-
                         </div>
+
                       </div>
                     </div>
-                    <!-- END COMPONENTE CHECKBOX ABAJO IZQUIERDA + IMAGEN-->
-
                   </div>
-                </div>
+                  <!-- END COMPONENTE CHECKBOX ABAJO IZQUIERDA + IMAGEN-->
 
-                <!-- Show Code -->
-                <div class="g-font-size-12 g-my-30 text-center">
-                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                    data-content-target="#shortcode3" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                    <i class="fa fa-code"></i>
-                    Mostrar código
-                  </a>
-                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                    data-content-target="#shortcode3" data-success-text="Copied">
-                    <i class="fa fa-clone"></i>
-                    Copiar código
-                  </a>
                 </div>
-                <!-- End Show Code -->
               </div>
+
+              <!-- Show Code -->
+              <div class="g-font-size-12 g-my-30 text-center">
+                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                  data-content-target="#shortcode3" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                  <i class="fa fa-code"></i>
+                  Mostrar código
+                </a>
+                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                  data-content-target="#shortcode3" data-success-text="Copied">
+                  <i class="fa fa-clone"></i>
+                  Copiar código
+                </a>
+              </div>
+              <!-- End Show Code -->
             </div>
           </div>
-
+          <hr>
           <!-- End Background Colored -->
-          <hr>
-          <hr>
           <!-- Background Colored -->
           <div class="row p-0 m-0">
 
@@ -301,63 +259,55 @@
                   <div class="p-0 w-100">
                     <div class="d-block msp-70 p-0">
                       <div class="row p-0 m-0 ">
-                          <div class="col-12">
+                        <div class="col-12">
+                          <div class="d-flex align-items-center">
                             <div class="d-flex align-items-center">
-                              <div class="d-flex align-items-center">
-                                <div class="mep-5">
-                                  <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
-                                </div>
-                                <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
-                                  Flex item
-                                </div>
+                              <div class="mep-5">
+                                <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
                               </div>
-                              <div class="d-flex align-items-center flex-grow-1 ">
-                                <div class="msp-20 mep-5">
-                                  <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
-                                </div>
-                                <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
-                                  Flex item
-                                </div>
+                              <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
+                                Flex item
                               </div>
                             </div>
-                              
-                              <img src="./assets/images/sin_imagen.jpg" class="mtp-5" height="250" width="250" " alt=" ...">
+                            <div class="d-flex align-items-center flex-grow-1 ">
+                              <div class="msp-20 mep-5">
+                                <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
+                              </div>
+                              <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
+                                Flex item
+                              </div>
+                            </div>
                           </div>
 
+                          <img src="./assets/images/sin_imagen.jpg" class="mtp-5" height="250" width="250" " alt=" ...">
                         </div>
+
                       </div>
                     </div>
+                  </div>
                   <!-- END COMPONENTE DOS CHECKBOX SOBRE + IMAGEN-->
-
-
                 </div>
-
-                
-
               </div>
-            </div>
 
-            <!-- Show Code -->
-            <div class="g-font-size-12 g-my-30 text-center">
-              <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                data-content-target="#shortcode4" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                <i class="fa fa-code"></i>
-                Mostrar código
-              </a>
-              <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                data-content-target="#shortcode4" data-success-text="Copied">
-                <i class="fa fa-clone"></i>
-                Copiar código
-              </a>
+              <!-- Show Code -->
+              <div class="g-font-size-12 g-my-30 text-center">
+                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                  data-content-target="#shortcode4" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                  <i class="fa fa-code"></i>
+                  Mostrar código
+                </a>
+                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                  data-content-target="#shortcode4" data-success-text="Copied">
+                  <i class="fa fa-clone"></i>
+                  Copiar código
+                </a>
+              </div>
+              <!-- End Show Code -->
             </div>
-            <!-- End Show Code -->
           </div>
+          <hr>
           <!-- End Background Colored -->
-        </div>
-        </div>
-        <!-- Background Colored -->
-        <hr>
-        <hr>
+          <!-- Background Colored -->
           <!-- Background Colored -->
           <div class="row p-0 m-0">
 
@@ -369,73 +319,70 @@
                   <div class="p-0 w-100">
                     <div class="d-block msp-70 p-0">
                       <div class="row p-0 m-0 ">
-                          <div class="col-12">
-                            <img src="./assets/images/sin_imagen.jpg" class="mbp-5" height="250" width="250" " alt=" ...">
+                        <div class="col-12">
+                          <img src="./assets/images/sin_imagen.jpg" class="mbp-5" height="250" width="250" " alt=" ...">
+                          <div class="d-flex align-items-center">
                             <div class="d-flex align-items-center">
-                              <div class="d-flex align-items-center">
-                                <div class="mep-5">
-                                  <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
-                                </div>
-                                <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
-                                  Flex item
-                                </div>
+                              <div class="mep-5">
+                                <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
                               </div>
-                              <div class="d-flex align-items-center flex-grow-1 ">
-                                <div class="msp-20 mep-5">
-                                  <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
-                                </div>
-                                <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
-                                  Flex item
-                                </div>
+                              <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
+                                Flex item
                               </div>
                             </div>
-                              
-                              
+                            <div class="d-flex align-items-center flex-grow-1 ">
+                              <div class="msp-20 mep-5">
+                                <div class="wp-30 hp-30 border border-3 border-color-dark"></div>
+                              </div>
+                              <div class="p-0 flex-grow-1 fs-5 f-nunito fw-300 color-dark">
+                                Flex item
+                              </div>
+                            </div>
                           </div>
 
+
                         </div>
+
                       </div>
                     </div>
+                  </div>
                   <!-- END COMPONENTE DOS CHECKBOX ABAJO + IMAGEN-->
 
 
                 </div>
 
-                
+
 
               </div>
-            </div>
 
-            <!-- Show Code -->
-            <div class="g-font-size-12 g-my-30 text-center">
-              <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                data-content-target="#shortcode5" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                <i class="fa fa-code"></i>
-                Mostrar código
-              </a>
-              <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                data-content-target="#shortcode5" data-success-text="Copied">
-                <i class="fa fa-clone"></i>
-                Copiar código
-              </a>
+              <!-- Show Code -->
+              <div class="g-font-size-12 g-my-30 text-center">
+                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                  data-content-target="#shortcode5" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                  <i class="fa fa-code"></i>
+                  Mostrar código
+                </a>
+                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                  data-content-target="#shortcode5" data-success-text="Copied">
+                  <i class="fa fa-clone"></i>
+                  Copiar código
+                </a>
+              </div>
+              <!-- End Show Code -->
             </div>
-            <!-- End Show Code -->
+            <!-- End Background Colored -->
           </div>
-          <!-- End Background Colored -->
-        </div>
-        </div>
-        <!-- Background Colored -->
-        <hr>
-        <hr>
-        <div class="row">
+          <hr>
+          <!-- Background Colored -->
+          <div class="row">
 
-          <div class="col-md-12">
-            <div id="shortcode6">
-              <div class="shortcode-html">
+            <div class="col-md-12">
+              <div id="shortcode6">
+                <div class="shortcode-html">
 
-                <!-- CAJA RESPUESTA-->
-                <div class="p-0 w-100">
-                  <div class="d-block msp-100 mep-80">
+                  <!-- CAJA RESPUESTA-->
+                  <div class="p-0 w-100">
+                    <div class="d-block msp-100 mep-80">
                       <div class="p-2 border border-2 rounded-p-10 border-color-lightDark">
 
                         <div class="row p-0 m-0">
@@ -472,50 +419,47 @@
                         </div>
                       </div>
 
+                    </div>
+                    <!-- CAJA RESPUESTA-->
                   </div>
-                  <!-- CAJA RESPUESTA-->
                 </div>
-              </div>
 
-              <!-- Show Code -->
-              <div class="g-font-size-12 g-my-30 text-center">
-                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                  data-content-target="#shortcode6" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                  <i class="fa fa-code"></i>
-                  Mostrar código
-                </a>
-                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                  data-content-target="#shortcode6" data-success-text="Copied">
-                  <i class="fa fa-clone"></i>
-                  Copiar código
-                </a>
-              </div>
-              <!-- End Show Code -->
+                <!-- Show Code -->
+                <div class="g-font-size-12 g-my-30 text-center">
+                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                    data-content-target="#shortcode6" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                    <i class="fa fa-code"></i>
+                    Mostrar código
+                  </a>
+                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                    data-content-target="#shortcode6" data-success-text="Copied">
+                    <i class="fa fa-clone"></i>
+                    Copiar código
+                  </a>
+                </div>
+                <!-- End Show Code -->
 
+              </div>
             </div>
           </div>
+          <hr>
           <!-- End Background Colored -->
+          <!-- Background Colored -->
+          <div class="row">
 
+            <div class="col-md-12">
+              <div id="shortcode7">
+                <div class="shortcode-html">
 
-        </div>
-        <!-- Background Colored -->
-        <hr>
-        <hr>
-        <div class="row">
-
-          <div class="col-md-12">
-            <div id="shortcode7">
-              <div class="shortcode-html">
-
-                <!-- CAJA RESPUESTA SIN TEXTO-->
-                <div class="p-0 w-100">
-                  <div class="d-block msp-100 mep-80">
+                  <!-- CAJA RESPUESTA SIN TEXTO-->
+                  <div class="p-0 w-100">
+                    <div class="d-block msp-100 mep-80">
                       <div class="p-2 border border-2 rounded-p-10 border-color-lightDark">
 
                         <div class="row p-0 m-0">
 
                           <div class="col-12 d-flex justify-content-start f-nunito ">
-                            
+
 
                           </div>
 
@@ -544,31 +488,31 @@
                         </div>
                       </div>
 
+                    </div>
+                    <!-- CAJA RESPUESTA SIN TEXTO-->
                   </div>
-                  <!-- CAJA RESPUESTA SIN TEXTO-->
                 </div>
-              </div>
 
-              <!-- Show Code -->
-              <div class="g-font-size-12 g-my-30 text-center">
-                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                  data-content-target="#shortcode7" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                  <i class="fa fa-code"></i>
-                  Mostrar código
-                </a>
-                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                  data-content-target="#shortcode7" data-success-text="Copied">
-                  <i class="fa fa-clone"></i>
-                  Copiar código
-                </a>
-              </div>
-              <!-- End Show Code -->
+                <!-- Show Code -->
+                <div class="g-font-size-12 g-my-30 text-center">
+                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                    data-content-target="#shortcode7" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                    <i class="fa fa-code"></i>
+                    Mostrar código
+                  </a>
+                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                    data-content-target="#shortcode7" data-success-text="Copied">
+                    <i class="fa fa-clone"></i>
+                    Copiar código
+                  </a>
+                </div>
+                <!-- End Show Code -->
 
+              </div>
             </div>
           </div>
+          <hr>
           <!-- End Background Colored -->
-          <hr>
-          <hr>
           <!-- Background Colored -->
           <div class="row p-0 m-0">
 
@@ -580,45 +524,42 @@
                   <div class="p-0 w-100">
                     <div class="d-block msp-70 p-0">
                       <div class="row p-0 m-0 ">
-                          <div class="col-12">
-                            <img src="./assets/images/img10.jpg" class="mbp-5" height="250" width="250" " alt=" ...">
-                              <div class="d-flex align-items-center">
-                                <div class="msp-200">
-                                  <div class="wp-40 hp-40 rounded-20 border border-2 border-color-lightDark"></div>
-                                </div>
-                                
-                              </div>
-                          </div>
+                        <div class="col-12">
+                          <img src="./assets/images/img10.jpg" class="mbp-5" height="250" width="250" " alt=" ...">
+                          <div class="d-flex align-items-center">
+                            <div class="msp-200">
+                              <div class="wp-40 hp-40 rounded-20 border border-2 border-color-lightDark"></div>
+                            </div>
 
+                          </div>
                         </div>
+
                       </div>
                     </div>
-                    <!-- END COMPONENTE CHECKBOX ABAJO DERECHA + IMAGEN-->
-
                   </div>
-                </div>
+                  <!-- END COMPONENTE CHECKBOX ABAJO DERECHA + IMAGEN-->
 
-                <!-- Show Code -->
-                <div class="g-font-size-12 g-my-30 text-center">
-                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                    data-content-target="#shortcode8" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                    <i class="fa fa-code"></i>
-                    Mostrar código
-                  </a>
-                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                    data-content-target="#shortcode8" data-success-text="Copied">
-                    <i class="fa fa-clone"></i>
-                    Copiar código
-                  </a>
                 </div>
-                <!-- End Show Code -->
               </div>
+
+              <!-- Show Code -->
+              <div class="g-font-size-12 g-my-30 text-center">
+                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                  data-content-target="#shortcode8" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                  <i class="fa fa-code"></i>
+                  Mostrar código
+                </a>
+                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                  data-content-target="#shortcode8" data-success-text="Copied">
+                  <i class="fa fa-clone"></i>
+                  Copiar código
+                </a>
+              </div>
+              <!-- End Show Code -->
             </div>
           </div>
-
+          <hr>
           <!-- End Background Colored -->
-          <hr>
-          <hr>
           <!-- Background Colored -->
           <div class="row p-0 m-0">
 
@@ -629,46 +570,44 @@
                   <!-- COMPONENTE CHECKBOX ABAJO DERECHA + IMAGEN-->
                   <div class="p-0 w-100">
                     <div class="d-block msp-70 p-0">
-                      <div class="row p-0 m-0 rounded-p-5 border border-3 border-top-0 border-end-0 border-color-violet">
-                          <div class="col-12 ">
-                            <img src="./assets/images/img13.jpg" class="mbp-5" height="250" width="250" " alt=" ...">
-                              <div class="d-flex align-items-center">
-                                <div class="msp-200 mbp-5">
-                                  <div class="wp-40 hp-40 rounded-20 border border-2 border-color-lightDark"></div>
-                                </div>
-                                
-                              </div>
-                          </div>
+                      <div
+                        class="row p-0 m-0 rounded-p-5 border border-3 border-top-0 border-end-0 border-color-violet">
+                        <div class="col-12 ">
+                          <img src="./assets/images/img13.jpg" class="mbp-5" height="250" width="250" " alt=" ...">
+                          <div class="d-flex align-items-center">
+                            <div class="msp-200 mbp-5">
+                              <div class="wp-40 hp-40 rounded-20 border border-2 border-color-lightDark"></div>
+                            </div>
 
+                          </div>
                         </div>
+
                       </div>
                     </div>
-                    <!-- END COMPONENTE CHECKBOX ABAJO DERECHA + IMAGEN-->
-
                   </div>
-                </div>
+                  <!-- END COMPONENTE CHECKBOX ABAJO DERECHA + IMAGEN-->
 
-                <!-- Show Code -->
-                <div class="g-font-size-12 g-my-30 text-center">
-                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                    data-content-target="#shortcode9" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                    <i class="fa fa-code"></i>
-                    Mostrar código
-                  </a>
-                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                    data-content-target="#shortcode9" data-success-text="Copied">
-                    <i class="fa fa-clone"></i>
-                    Copiar código
-                  </a>
                 </div>
-                <!-- End Show Code -->
               </div>
+
+              <!-- Show Code -->
+              <div class="g-font-size-12 g-my-30 text-center">
+                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                  data-content-target="#shortcode9" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                  <i class="fa fa-code"></i>
+                  Mostrar código
+                </a>
+                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                  data-content-target="#shortcode9" data-success-text="Copied">
+                  <i class="fa fa-clone"></i>
+                  Copiar código
+                </a>
+              </div>
+              <!-- End Show Code -->
             </div>
           </div>
-
+          <hr>
           <!-- End Background Colored -->
-          <hr>
-          <hr>
           <!-- Background Colored -->
           <div class="row p-0 m-0">
 
@@ -679,58 +618,54 @@
                   <!-- COMPONENTE DOS CHECKBOX DERECHA + IMAGEN-->
                   <div class="p-0 w-100">
                     <div class="d-block msp-70 p-0">
-                      <div class="row p-0 m-0 rounded-p-5 border border-3 border-top-0 border-end-0 border-color-lightbrown">
-                          <div class="col-12">
-                            
+                      <div
+                        class="row p-0 m-0 rounded-p-5 border border-3 border-top-0 border-end-0 border-color-lightbrown">
+                        <div class="col-12">
+
+                          <div class="d-flex align-items-center">
                             <div class="d-flex align-items-center">
-                              <div class="d-flex align-items-center">
-                                <div class="mep-5">
-                                  <img src="./assets/images/img16.jpg" class="mbp-5" height="250" width="200" " alt=" ...">
-                                </div>
-                                
+                              <div class="mep-5">
+                                <img src="./assets/images/img16.jpg" class="mbp-5" height="250" width="200" " alt="
+                                  ...">
                               </div>
-                              <div class="d-flex align-self-end">
-                                <div class="msp-10 mep-5">
-                                  <div class=" mbp-5 wp-40 hp-40 rounded-20 border border-2 border-color-lightDark"></div>
-                                </div>
-                                
-                              </div>
+
                             </div>
-                              
-                              
+                            <div class="d-flex align-self-end">
+                              <div class="msp-10 mep-5">
+                                <div class=" mbp-5 wp-40 hp-40 rounded-20 border border-2 border-color-lightDark"></div>
+                              </div>
+
+                            </div>
                           </div>
 
+
                         </div>
+
                       </div>
                     </div>
+                  </div>
                   <!-- END COMPONENTE DOS CHECKBOX DERECHA + IMAGEN-->
-
-
                 </div>
-
-                
-
               </div>
-            </div>
 
-            <!-- Show Code -->
-            <div class="g-font-size-12 g-my-30 text-center">
-              <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                data-content-target="#shortcode10" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                <i class="fa fa-code"></i>
-                Mostrar código
-              </a>
-              <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                data-content-target="#shortcode10" data-success-text="Copied">
-                <i class="fa fa-clone"></i>
-                Copiar código
-              </a>
+              <!-- Show Code -->
+              <div class="g-font-size-12 g-my-30 text-center">
+                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                  data-content-target="#shortcode10" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                  <i class="fa fa-code"></i>
+                  Mostrar código
+                </a>
+                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                  data-content-target="#shortcode10" data-success-text="Copied">
+                  <i class="fa fa-clone"></i>
+                  Copiar código
+                </a>
+              </div>
+              <!-- End Show Code -->
             </div>
-            <!-- End Show Code -->
           </div>
+          <hr>
           <!-- End Background Colored -->
-          <hr>
-          <hr>
           <!-- Background Colored -->
           <div class="row p-0 m-0">
 
@@ -741,60 +676,55 @@
                   <!-- COMPONENTE DOS CHECKBOX DERECHA + IMAGEN-->
                   <div class="p-0 w-100">
                     <div class="d-block msp-70 p-0">
-                      <div class="row p-0 m-0 rounded-p-5 border border-3 border-top-0 border-end-0 border-color-lightblue">
-                          <div class="col-12">
-                            
+                      <div
+                        class="row p-0 m-0 rounded-p-5 border border-3 border-top-0 border-end-0 border-color-lightblue">
+                        <div class="col-12">
+
+                          <div class="d-flex align-items-center">
                             <div class="d-flex align-items-center">
-                              <div class="d-flex align-items-center">
-                                <div class="mep-5">
-                                  <img src="./assets/images/img19.jpg" class="mbp-5" height="250" width="250" " alt=" ...">
-                                </div>
-                                
+                              <div class="mep-5">
+                                <img src="./assets/images/img19.jpg" class="mbp-5" height="250" width="250" " alt="
+                                  ...">
                               </div>
-                              <div class="d-flex align-self-end">
-                                <div class="msp-10 mep-5">
-                                  <div class=" mbp-5 wp-40 hp-40 rounded-20 border border-2 border-color-lightDark"></div>
-                                </div>
-                                
-                              </div>
+
                             </div>
-                              
-                              
+                            <div class="d-flex align-self-end">
+                              <div class="msp-10 mep-5">
+                                <div class=" mbp-5 wp-40 hp-40 rounded-20 border border-2 border-color-lightDark"></div>
+                              </div>
+
+                            </div>
                           </div>
 
+
                         </div>
+
                       </div>
                     </div>
+                  </div>
                   <!-- END COMPONENTE DOS CHECKBOX DERECHA + IMAGEN-->
-
-
                 </div>
-
-                
-
               </div>
-            </div>
-
-            <!-- Show Code -->
-            <div class="g-font-size-12 g-my-30 text-center">
-              <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+              
+              <!-- Show Code -->
+              <div class="g-font-size-12 g-my-30 text-center">
+                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
                 data-content-target="#shortcode11" data-modal-target="#modalMarkup" data-modal-effect="fadein">
                 <i class="fa fa-code"></i>
                 Mostrar código
-              </a>
-              <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                </a>
+                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
                 data-content-target="#shortcode11" data-success-text="Copied">
                 <i class="fa fa-clone"></i>
                 Copiar código
-              </a>
+                </a>
             </div>
             <!-- End Show Code -->
+            </div>
           </div>
+          <hr>
           <!-- End Background Colored -->
-          <hr>
           <!-- Background Colored -->
-          <hr>
-
           <div class="row p-0 m-0">
 
             <div class="col-md-12">
@@ -805,245 +735,251 @@
                   <div class="p-0 w-100">
                     <div class="d-block w-100">
                       <div class="row p-0 m-0">
-                          <div class="col-12">
-                            <div class="d-flex align-items-center">
-                              <div class="">
-                                <div class="fs-5 fw-200 color-white f-nunito rounded-set-6 px-5 bgc-4  color-white msp-60 mep-60 ">Mamífero</div>
-                                <div class="w-100 h-200 border border-3 border-color-lightDark border-dashed"></div>
+                        <div class="col-12">
+                          <div class="d-flex align-items-center">
+                            <div class="w-100">
+                              <div class="d-inline-block fs-5 fw-600 color-white f-nunito rounded-set-6 px-5 bgc-4 color-white m-0">
+                                Mamífero
                               </div>
-                              
+                              <div class="w-100 min-hp-150 border border-3 border-color-lightDark border-dashed"></div>
                             </div>
+
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- / COMPONENTE CHECKBOX CON ROTULO-->
-
                   </div>
-                </div>
+                  <!-- / COMPONENTE CHECKBOX CON ROTULO-->
 
-                <!-- Show Code -->
-                <div class="g-font-size-12 g-my-30 text-center">
-                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                    data-content-target="#shortcode12" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                    <i class="fa fa-code"></i>
-                    Mostrar código
-                  </a>
-                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                    data-content-target="#shortcode12" data-success-text="Copied">
-                    <i class="fa fa-clone"></i>
-                    Copiar código
-                  </a>
                 </div>
-                <!-- End Show Code -->
-
               </div>
+
+              <!-- Show Code -->
+              <div class="g-font-size-12 g-my-30 text-center">
+                <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                  data-content-target="#shortcode12" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                  <i class="fa fa-code"></i>
+                  Mostrar código
+                </a>
+                <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                  data-content-target="#shortcode12" data-success-text="Copied">
+                  <i class="fa fa-clone"></i>
+                  Copiar código
+                </a>
+              </div>
+              <!-- End Show Code -->
+
             </div>
           </div>
-          <!-- End Background Colored -->
-          <hr>
-          <hr>
-          <!-- Background Colored -->
-          
+        <hr>
+        <!-- End Background Colored -->
+        <!-- Background Colored -->
+        <div class="row p-0 m-0">
 
-          <div class="row p-0 m-0">
+          <div class="col-md-12">
+            <div id="shortcode13">
+              <div class="shortcode-html">
 
-            <div class="col-md-12">
-              <div id="shortcode13">
-                <div class="shortcode-html">
-
-                  <!-- COMPONENTE CHECKBOX CON ROTULO 2 -->
-                  <div class="p-0 w-100">
-                    <div class="d-block w-100">
-                      <div class="row p-0 m-0">
-                          <div class="col-12">
-                            <div class="d-flex align-items-center">
-                              <div class="">
-                                <div class="fs-5 fw-200 color-white f-nunito rounded-set-6 px-5 bgc-5  color-white msp-60 mep-60 ">Ave</div>
-                                <div class="w-100 h-200 border border-3 border-color-lightDark border-dashed"></div>
-                              </div>
-                              
-                            </div>
+                <!-- COMPONENTE CHECKBOX CON ROTULO 2 -->
+                <div class="p-0 w-100">
+                  <div class="d-block w-100">
+                    <div class="row p-0 m-0">
+                      <div class="col-12">
+                        <div class="d-flex align-items-center">
+                          <div class="">
+                            <div
+                              class="fs-5 fw-200 color-white f-nunito rounded-set-6 px-5 bgc-5  color-white msp-60 mep-60 ">
+                              Ave</div>
+                            <div class="w-100 h-200 border border-3 border-color-lightDark border-dashed"></div>
                           </div>
+
                         </div>
                       </div>
                     </div>
-                    <!-- / COMPONENTE CHECKBOX CON ROTULO 2-->
-
                   </div>
                 </div>
-
-                <!-- Show Code -->
-                <div class="g-font-size-12 g-my-30 text-center">
-                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                    data-content-target="#shortcode13" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                    <i class="fa fa-code"></i>
-                    Mostrar código
-                  </a>
-                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                    data-content-target="#shortcode13" data-success-text="Copied">
-                    <i class="fa fa-clone"></i>
-                    Copiar código
-                  </a>
-                </div>
-                <!-- End Show Code -->
+                <!-- / COMPONENTE CHECKBOX CON ROTULO 2-->
 
               </div>
             </div>
-          </div>
-          <!-- End Background Colored -->
-          <hr>
-          <!-- Background Colored -->
-          <hr>
 
-          <div class="row p-0 m-0">
-
-            <div class="col-md-12">
-              <div id="shortcode14">
-                <div class="shortcode-html">
-
-                  <!-- COMPONENTE CHECKBOX CON ROTULO 3 -->
-                  <div class="p-0 w-100">
-                    <div class="d-block w-100">
-                      <div class="row p-0 m-0">
-                          <div class="col-12">
-                            <div class="d-flex align-items-center">
-                              <div class="">
-                                <div class="fs-5 fw-200 color-white f-nunito rounded-set-6 px-5 bgc-6  color-white msp-60 mep-60 ">Reptil</div>
-                                <div class="w-100 h-200 border border-3 border-color-lightDark border-dashed"></div>
-                              </div>
-                              
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- / COMPONENTE CHECKBOX CON ROTULO 3-->
-
-                  </div>
-                </div>
-
-                <!-- Show Code -->
-                <div class="g-font-size-12 g-my-30 text-center">
-                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                    data-content-target="#shortcode14" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                    <i class="fa fa-code"></i>
-                    Mostrar código
-                  </a>
-                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                    data-content-target="#shortcode14" data-success-text="Copied">
-                    <i class="fa fa-clone"></i>
-                    Copiar código
-                  </a>
-                </div>
-                <!-- End Show Code -->
-
-              </div>
+            <!-- Show Code -->
+            <div class="g-font-size-12 g-my-30 text-center">
+              <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                data-content-target="#shortcode13" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                <i class="fa fa-code"></i>
+                Mostrar código
+              </a>
+              <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                data-content-target="#shortcode13" data-success-text="Copied">
+                <i class="fa fa-clone"></i>
+                Copiar código
+              </a>
             </div>
+            <!-- End Show Code -->
+
           </div>
-          <!-- End Background Colored -->
-          <hr>
-          <!-- Background Colored -->
-          <hr>
-
-          <div class="row p-0 m-0">
-
-            <div class="col-md-12">
-              <div id="shortcode15">
-                <div class="shortcode-html">
-
-                  <!-- COMPONENTE CHECKBOX CON ROTULO 4 -->
-                  <div class="p-0 w-100">
-                    <div class="d-block w-100">
-                      <div class="row p-0 m-0">
-                          <div class="col-12">
-                            <div class="d-flex align-items-center">
-                              <div class="">
-                                <div class="fs-5 fw-200 color-white f-nunito rounded-set-6 px-5 bgc-7  color-white msp-60 mep-60 ">Anfibio</div>
-                                <div class="w-100 h-200 border border-3 border-color-lightDark border-dashed"></div>
-                              </div>
-                              
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- / COMPONENTE CHECKBOX CON ROTULO 4-->
-
-                  </div>
-                </div>
-
-                <!-- Show Code -->
-                <div class="g-font-size-12 g-my-30 text-center">
-                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                    data-content-target="#shortcode15" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                    <i class="fa fa-code"></i>
-                    Mostrar código
-                  </a>
-                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                    data-content-target="#shortcode15" data-success-text="Copied">
-                    <i class="fa fa-clone"></i>
-                    Copiar código
-                  </a>
-                </div>
-                <!-- End Show Code -->
-
-              </div>
-            </div>
-          </div>
-          <!-- End Background Colored -->
-          <hr>
-          <!-- Background Colored -->
-          <hr>
-
-          <div class="row p-0 m-0">
-
-            <div class="col-md-12">
-              <div id="shortcode16">
-                <div class="shortcode-html">
-
-                  <!-- COMPONENTE CHECKBOX CON ROTULO 4 -->
-                  <div class="p-0 w-100">
-                    <div class="d-block w-100">
-                      <div class="row p-0 m-0">
-                          <div class="col-12">
-                            <div class="d-flex align-items-center">
-                              <div class="">
-                                <div class="fs-5 fw-200 color-white f-nunito rounded-set-6 px-5 bgc-8  color-white msp-60 mep-60 ">Anfibio</div>
-                                <div class="w-100 h-200 border border-3 border-color-lightDark border-dashed"></div>
-                              </div>
-                              
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- / COMPONENTE CHECKBOX CON ROTULO 4-->
-
-                  </div>
-                </div>
-
-                <!-- Show Code -->
-                <div class="g-font-size-12 g-my-30 text-center">
-                  <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
-                    data-content-target="#shortcode16" data-modal-target="#modalMarkup" data-modal-effect="fadein">
-                    <i class="fa fa-code"></i>
-                    Mostrar código
-                  </a>
-                  <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
-                    data-content-target="#shortcode16" data-success-text="Copied">
-                    <i class="fa fa-clone"></i>
-                    Copiar código
-                  </a>
-                </div>
-                <!-- End Show Code -->
-
-              </div>
-            </div>
-          </div>
-          <!-- End Background Colored -->
         </div>
-        
+        </div>
+        <!-- End Background Colored -->
+        <hr>
+        <!-- Background Colored -->
+        <hr>
+
+        <div class="row p-0 m-0">
+
+          <div class="col-md-12">
+            <div id="shortcode14">
+              <div class="shortcode-html">
+
+                <!-- COMPONENTE CHECKBOX CON ROTULO 3 -->
+                <div class="p-0 w-100">
+                  <div class="d-block w-100">
+                    <div class="row p-0 m-0">
+                      <div class="col-12">
+                        <div class="d-flex align-items-center">
+                          <div class="">
+                            <div
+                              class="fs-5 fw-200 color-white f-nunito rounded-set-6 px-5 bgc-6  color-white msp-60 mep-60 ">
+                              Reptil</div>
+                            <div class="w-100 h-200 border border-3 border-color-lightDark border-dashed"></div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- / COMPONENTE CHECKBOX CON ROTULO 3-->
+
+              </div>
+            </div>
+
+            <!-- Show Code -->
+            <div class="g-font-size-12 g-my-30 text-center">
+              <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                data-content-target="#shortcode14" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                <i class="fa fa-code"></i>
+                Mostrar código
+              </a>
+              <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                data-content-target="#shortcode14" data-success-text="Copied">
+                <i class="fa fa-clone"></i>
+                Copiar código
+              </a>
+            </div>
+            <!-- End Show Code -->
+
+          </div>
+        </div>
+        </div>
+        <!-- End Background Colored -->
+        <hr>
+        <!-- Background Colored -->
+        <hr>
+
+        <div class="row p-0 m-0">
+
+          <div class="col-md-12">
+            <div id="shortcode15">
+              <div class="shortcode-html">
+
+                <!-- COMPONENTE CHECKBOX CON ROTULO 4 -->
+                <div class="p-0 w-100">
+                  <div class="d-block w-100">
+                    <div class="row p-0 m-0">
+                      <div class="col-12">
+                        <div class="d-flex align-items-center">
+                          <div class="">
+                            <div
+                              class="fs-5 fw-200 color-white f-nunito rounded-set-6 px-5 bgc-7  color-white msp-60 mep-60 ">
+                              Anfibio</div>
+                            <div class="w-100 h-200 border border-3 border-color-lightDark border-dashed"></div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- / COMPONENTE CHECKBOX CON ROTULO 4-->
+
+              </div>
+            </div>
+
+            <!-- Show Code -->
+            <div class="g-font-size-12 g-my-30 text-center">
+              <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                data-content-target="#shortcode15" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                <i class="fa fa-code"></i>
+                Mostrar código
+              </a>
+              <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                data-content-target="#shortcode15" data-success-text="Copied">
+                <i class="fa fa-clone"></i>
+                Copiar código
+              </a>
+            </div>
+            <!-- End Show Code -->
+
+          </div>
+        </div>
+        </div>
+        <!-- End Background Colored -->
+        <hr>
+        <!-- Background Colored -->
+        <hr>
+
+        <div class="row p-0 m-0">
+
+          <div class="col-md-12">
+            <div id="shortcode16">
+              <div class="shortcode-html">
+
+                <!-- COMPONENTE CHECKBOX CON ROTULO 4 -->
+                <div class="p-0 w-100">
+                  <div class="d-block w-100">
+                    <div class="row p-0 m-0">
+                      <div class="col-12">
+                        <div class="d-flex align-items-center">
+                          <div class="">
+                            <div
+                              class="fs-5 fw-200 color-white f-nunito rounded-set-6 px-5 bgc-8  color-white msp-60 mep-60 ">
+                              Anfibio</div>
+                            <div class="w-100 h-200 border border-3 border-color-lightDark border-dashed"></div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- / COMPONENTE CHECKBOX CON ROTULO 4-->
+
+              </div>
+            </div>
+
+            <!-- Show Code -->
+            <div class="g-font-size-12 g-my-30 text-center">
+              <a class="js-modal-markup u-link-v5  g-color-main  g-color-primary--hover g-mr-15" href="#"
+                data-content-target="#shortcode16" data-modal-target="#modalMarkup" data-modal-effect="fadein">
+                <i class="fa fa-code"></i>
+                Mostrar código
+              </a>
+              <a class="js-copy u-link-v5  g-color-main  g-color-primary--hover" href="#"
+                data-content-target="#shortcode16" data-success-text="Copied">
+                <i class="fa fa-clone"></i>
+                Copiar código
+              </a>
+            </div>
+            <!-- End Show Code -->
+
+          </div>
+        </div>
+        </div>
+        <!-- End Background Colored -->
+        </div>
+
 
   </main>
 
