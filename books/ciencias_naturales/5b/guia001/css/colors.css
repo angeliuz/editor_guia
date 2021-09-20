@@ -115,7 +115,6 @@
   background-color: #f5486c;
 }
 
-
 /* BORDES */
 .border-color-primary {
   border-color: #73b72b !important;
@@ -151,9 +150,97 @@
 .bgc-rotulo-01 {
   background-color: #7f3ea2;
 }
-.bgc-rotulo-02{
+.bgc-rotulo-02 {
   background-color: #f68c39;
 }
 .bgc-rotulo-03 {
   background-color: #29c4b3;
+}
+
+/* AUXILIARES */
+/* COLORS */
+.color-goku {
+  /* color:  */
+}
+.color-bulma {
+  /* color:  */
+}
+.color-krillin {
+  /* color:  */
+}
+.color-piccolo {
+  /* color:  */
+}
+.color-gohan {
+  /* color:  */
+}
+.color-vegeta {
+  /* color:  */
+}
+.color-bardock {
+  /* color:  */
+}
+.color-trunks {
+  /* color:  */
+}
+.color-goten {
+  /* color:  */
+}
+
+/* BORDERS */
+.border-color-goku {
+  /* color:  */
+}
+.border-color-bulma {
+  /* color:  */
+}
+.border-color-krillin {
+  /* color:  */
+}
+.border-color-piccolo {
+  /* color:  */
+}
+.border-color-gohan {
+  /* color:  */
+}
+.border-color-vegeta {
+  /* color:  */
+}
+.border-color-bardock {
+  /* color:  */
+}
+.border-color-trunks {
+  /* color:  */
+}
+.border-color-goten {
+  /* color:  */
+}
+
+/* BACKGROUND COLORS */
+.bgc-goku {
+  /* color:  */
+}
+.bgc-bulma {
+  /* color:  */
+}
+.bgc-krillin {
+  /* color:  */
+}
+.bgc-piccolo {
+  /* color:  */
+}
+.bgc-gohan {
+  /* color:  */
+}
+.bgc-vegeta {
+  /* color:  */
+}
+.bgc-bardock {
+  /* color:  */
+}
+.bgc-trunks {
+  /* color:  */
+}
+.bgc-goten {
+  /* color:  */
 }
