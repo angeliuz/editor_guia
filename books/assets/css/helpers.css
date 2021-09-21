@@ -3242,6 +3242,10 @@ font-family: 'Lobster', cursive; */
 .rounded-bs-10 {
   border-bottom-left-radius: 10px;
 }
+/*redondeado left-bottom dos*/
+.rounded-bs-20 {
+  border-bottom-left-radius: 20px;
+}
 /*redondeado right-bottom*/
 .rounded-be-10 {
   border-bottom-right-radius: 10px;
