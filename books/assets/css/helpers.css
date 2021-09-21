@@ -3246,6 +3246,14 @@ font-family: 'Lobster', cursive; */
 .rounded-bs-20 {
   border-bottom-left-radius: 20px;
 }
+/*redondeado left-bottom dos*/
+.rounded-bs-30 {
+  border-bottom-left-radius: 30px;
+}
+/*redondeado left-bottom dos*/
+.rounded-bs-40 {
+  border-bottom-left-radius: 40px;
+}
 /*redondeado right-bottom*/
 .rounded-be-10 {
   border-bottom-right-radius: 10px;
