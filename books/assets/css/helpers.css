@@ -3270,6 +3270,9 @@ font-family: 'Lobster', cursive; */
 .min-hp-150 {
   min-height: 150px !important;
 }
+.min-hp-500 {
+  min-height: 500px !important;
+}
 .min-h-100 {
   min-height: 100% !important;
 }
