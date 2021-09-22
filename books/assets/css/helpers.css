@@ -3274,6 +3274,9 @@ font-family: 'Lobster', cursive; */
   min-height: 100% !important;
 }
 
+.min-wp-70 {
+  min-width: 70px !important;
+}
 .min-wp-120 {
   min-width: 120px !important;
 }
