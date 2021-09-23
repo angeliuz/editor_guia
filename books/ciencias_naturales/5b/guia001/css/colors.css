@@ -172,7 +172,7 @@
 /* AUXILIARES */
 /* COLORS */
 .color-goku {
-  /* color:  */
+  color: #8f6a96;
 }
 .color-bulma {
   color: #34c1ee;
@@ -219,7 +219,7 @@
 
 /* BORDERS */
 .border-color-goku {
-  /* border-color:  */
+  border-color: #8f6a96;
 }
 .border-color-bulma {
   border-color: #34c1ee !important;
@@ -266,7 +266,7 @@
 
 /* BACKGROUND COLORS */
 .bgc-goku {
-  /* background-color:  */
+  background-color: #8f6a96;
 }
 .bgc-bulma {
   background-color: #34c1ee;
