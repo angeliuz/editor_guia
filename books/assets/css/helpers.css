@@ -13,6 +13,13 @@ font-family: 'Lobster', cursive; */
   font-style: normal;
 }
 
+@font-face {
+  font-family: "tclgrafito";
+  src: url("../fonts/tclgrafito-regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* WIDTH */
 .w-5 {
   width: 5%;
