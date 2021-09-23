@@ -227,6 +227,12 @@ SE REEMPLAZARON POR NOMBRES ABSTRACTOS
 .color-saitama {
   color: #ffc466
  }
+.color-ash{
+  color: #ecf3e0;
+} 
+.color-pikachu{
+  color: #fafbf6;
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -277,6 +283,13 @@ border-color: #f1c3dd
 .border-color-saitama {
   border-color: #ffc466
   }
+.border-color-ash {
+  border-color: #ecf3e0;
+}
+.border-color-pikachu{
+  border-color: #fafbf6;
+}
+
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -326,4 +339,10 @@ background-color: #f9eca9
 }
 .bgc-saitama {
  background-color: #ffc466
+}
+.bgc-ash{
+  background-color: #ecf3e0;
+}
+.bgc.pikachu{
+  background-color: #fafbf6;
 }
