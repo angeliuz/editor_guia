@@ -137,6 +137,8 @@
 .border-color-lightDark {
   border-color: #9f9f9f !important;
 }
+/* 
+SE REEMPLAZARON POR NOMBRES ABSTRACTOS
 .border-color-violet {
   border-color: #8f6a96 !important;
 }
@@ -145,7 +147,7 @@
 }
 .border-color-lightblue {
   border-color: #7296ac !important;
-}
+} */
 .border-color-1 {
   border-color: #009ddf !important;
 }
@@ -196,10 +198,10 @@
   color: #afdada;
 }
 .color-goten {
-  /* color:  */
+  color: #cfab89;
 }
 .color-yamcha {
-  /* color:  */
+  color: #7296ac;
 }
 .color-tshinhan {
   /* color:  */
@@ -243,10 +245,10 @@
   border-color: #afdada !important;
 }
 .border-color-goten {
-  /* border-color:  */
+  border-color: #cfab89 !important;
 }
 .border-color-yamcha {
-  /* border-color:  */
+  border-color: #7296ac !important;
 }
 .border-color-tshinhan {
   /* border-color:  */
@@ -290,10 +292,10 @@
   background-color: #afdada;
 }
 .bgc-goten {
-  /* background-color:  */
+  background-color: #cfab89;
 }
 .bgc-yamcha {
-  /* background-color:  */
+  background-color: #7296ac;
 }
 .bgc-tshinhan {
   /* background-color:  */
