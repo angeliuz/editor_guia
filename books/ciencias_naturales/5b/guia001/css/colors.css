@@ -222,8 +222,11 @@ SE REEMPLAZARON POR NOMBRES ABSTRACTOS
  color: #cddfad
 }
 .color-freezer {
-  /* color:  */
+ color: #f1c3dd
 }
+.color-saitama {
+  color: #ffc466
+ }
 
 /* BORDERS */
 .border-color-goku {
@@ -269,8 +272,11 @@ border-color: #f9eca9
   border-color: #cddfad
 }
 .border-color-freezer {
-  /* border-color:  */
+border-color: #f1c3dd
 }
+.border-color-saitama {
+  border-color: #ffc466
+  }
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -316,5 +322,8 @@ background-color: #f9eca9
   background-color: #cddfad
 }
 .bgc-freezer {
-  /* background-color:  */
+  background-color: #f1c3dd
+}
+.bgc-saitama {
+ background-color: #ffc466
 }
