@@ -219,7 +219,7 @@
 
 /* BORDERS */
 .border-color-goku {
-  border-color: #8f6a96;
+  border-color: #8f6a96 !important;
 }
 .border-color-bulma {
   border-color: #34c1ee !important;
