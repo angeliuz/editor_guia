@@ -228,7 +228,7 @@ SE REEMPLAZARON POR NOMBRES ABSTRACTOS
   color: #ffc466;
  }
 .color-ash{
-  color: #ecf3e0;
+  color: #e7f4d0;
 } 
 .color-pikachu{
   color: #fafbf6;
@@ -244,6 +244,9 @@ SE REEMPLAZARON POR NOMBRES ABSTRACTOS
 }
 .color-chitara{
   color: #e8f0d7;
+}
+.color-raichu{
+  color: #1ab21e;
 }
 
 /* BORDERS */
@@ -296,7 +299,7 @@ border-color: #f1c3dd !important;
   border-color: #ffc466 !important;
   }
 .border-color-ash {
-  border-color: #ecf3e0 !important;
+  border-color: #e7f4d0 !important;
 }
 .border-color-pikachu{
   border-color: #fafbf6 !important;
@@ -312,6 +315,9 @@ border-color: #f1c3dd !important;
 }
 .border-color-chitara{
   border-color: #9ea78d !important;
+}
+.border-color-raichu{
+  border-color: #1ab21e !important;
 }
 
 
@@ -365,9 +371,9 @@ background-color: #f9eca9;
  background-color: #ffc466;
 }
 .bgc-ash{
-  background-color: #ecf3e0;
+  background-color: #e7f4d0;
 }
-.bgc.pikachu{
+.bgc-pikachu{
   background-color: #fafbf6;
 }
 .bgc-leono{
@@ -381,4 +387,7 @@ background-color: #f9eca9;
 }
 .bgc-chitara{
   background-color: #e8f0d7;
+}
+.bgc-raichu{
+  background-color: #1ab21e;
 }
