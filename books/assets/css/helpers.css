@@ -3314,6 +3314,6 @@ font-family: 'Lobster', cursive; */
 
 
 /* ROTATE */
-.sm-rotate-20{
-  transform: rotate(20deg)
+.sm-rotate--2{
+  transform: rotate(-2deg)
   }
