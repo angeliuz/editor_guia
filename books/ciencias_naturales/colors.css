@@ -1,46 +1,78 @@
+:root {
+  --transparent: transparent;
+  --primary: #73b72b;
+  --secondary: #e72889;
+  --tertiary: #d8edec;
+  --cuaternary: #ebd8e8;
+  --quinary: #e85b9b;
+  --sextario: #f2f7e5;
+  --septenario: #bbdfb7;
+  --lightDark: #9f9f9f;
+  --dark: #55524f;
+  --hardDark: #2e2e2e;
+  --info: #00b0f6;
+  --success: #198754;
+  --danger: #e72e3c;
+  --warning: #f1871d;
+  --light: #e5e9ec;
+  --muted: black;
+  --white: white;
+}
 /* COLORES */
 .color-primary {
-  color: #73b72b;
+  color: var(--primary);
 }
 .color-secondary {
-  color: #e72889;
+  color: var(--secondary);
 }
 .color-tertiary {
-  color: #d8edec;
+  color: var(--tertiary);
 }
-/* .color-cuaternary {
-  color: #4f707f;
-} */
-
-/* .bgc-cuaternary {
-  background-color: #ebd8e8;
-} */
+.color-cuaternary {
+  color: var(--cuaternary);
+}
 .color-quinary {
-  /* background-color: */
+  background-color: var(--quinary);
 }
 .color-sextario {
-  background-color: #f2f7e5;
+  background-color: var(--sextario);
 }
 .color-septenario {
-  background-color: #bbdfb7;
+  background-color: var(--septenario);
 }
-
 .color-white {
-  color: white;
+  color: var(--white);
+}
+.color-success {
+  color: var(--success);
+}
+.color-danger {
+  color: var(--danger);
+}
+.color-warning {
+  color: var(--warning);
+}
+.color-light {
+  color: var(--light);
+}
+.color-muted {
+  color: var(--muted);
+  opacity: 0.4;
 }
 .color-lightDark {
-  color: #9f9f9f;
+  color: var(--lightDark);
 }
 .color-dark {
-  color: #55524f;
+  color: var(--dark);
 }
 .color-hardDark {
-  color: #2e2e2e;
+  color: var(--hardDark);
 }
 .color-info {
-  color: #00b0f6;
+  color: var(--info);
 }
-.color-flecha {
+
+/* .color-flecha {
   color: #00b0f6;
 }
 .color-1 {
@@ -51,48 +83,62 @@
 }
 .color-3 {
   color: #f1871d;
-}
+} */
 
 /* BACKGROUND */
-.bgc-aqua {
-  background-color: aqua;
-}
-.bgc-red {
-  background-color: red;
-}
-.bgc-white {
-  background-color: #ffffff;
-}
-.bgc-yellow {
-  background-color: yellow;
-}
-.bgc-green {
-  background-color: green;
-}
-.bgc-pink {
-  background-color: pink;
-}
+
 .bgc-primary {
-  background-color: #73b72b;
+  background-color: var(--primary);
 }
 .bgc-secondary {
-  background-color: #feecc8;
+  background-color: var(--secondary);
 }
 .bgc-tertiary {
-  background-color: #d8edec;
+  background-color: var(--tertiary);
 }
 .bgc-cuaternary {
-  background-color: #ebd8e8;
+  background-color: var(--cuaternary);
 }
 .bgc-quinary {
-  /* background-color: */
+  background-color: var(--quinary);
 }
 .bgc-sextario {
-  background-color: #f2f7e5;
+  background-color: var(--sextario);
 }
 .bgc-septenario {
-  background-color: #bbdfb7;
+  background-color: var(--septenario);
 }
+.bgc-white {
+  background-color: var(--white);
+}
+.bgc-success {
+  background-color: var(--success);
+}
+.bgc-danger {
+  background-color: var(--danger);
+}
+.bgc-warning {
+  background-color: var(--warning);
+}
+.bgc-light {
+  background-color: var(--light);
+}
+.bgc-muted {
+  background-color: var(--muted);
+}
+.bgc-lightDark {
+  background-color: var(--lightDark);
+}
+.bgc-dark {
+  background-color: var(--dark);
+}
+.bgc-hardDark {
+  background-color: var(--hardDark);
+}
+.bgc-info {
+  background-color: var(--info);
+}
+
 .bgc-1 {
   background-color: #009ddf;
 }
@@ -121,6 +167,27 @@
   background-color: #00b0f6;
 }
 
+/* BACKGROUND PARA DESARROLLO */
+.bgc-aqua {
+  background-color: aqua;
+}
+.bgc-red {
+  background-color: red;
+}
+.bgc-white {
+  background-color: #ffffff;
+}
+.bgc-yellow {
+  background-color: yellow;
+}
+.bgc-green {
+  background-color: green;
+}
+.bgc-pink {
+  background-color: pink;
+}
+/* END BACKGROUND PARA DESARROLLO */
+
 /* BORDES */
 .border-color-primary {
   border-color: #73b72b !important;
@@ -132,7 +199,7 @@
   border-color: #d8edec !important;
 }
 .border-color-quinary {
-  /* border-color:  */
+  border-color: #e85b9b !important;
 }
 .border-color-hardDark {
   border-color: #2e2e2e !important;
@@ -213,39 +280,39 @@ SE REEMPLAZARON POR NOMBRES ABSTRACTOS
   color: #bfe4f4;
 }
 .color-android18 {
- color: #f9eca9;
+  color: #f9eca9;
 }
 .color-milk {
   color: #c4e4e2;
 }
 .color-yamcha {
- color: #cddfad;
+  color: #cddfad;
 }
 .color-freezer {
- color: #f1c3dd;
+  color: #f1c3dd;
 }
 .color-saitama {
   color: #ffc466;
- }
-.color-ash{
+}
+.color-ash {
   color: #e7f4d0;
-} 
-.color-pikachu{
+}
+.color-pikachu {
   color: #fafbf6;
 }
-.color-leono{
+.color-leono {
   color: #ffd700;
 }
-.color-tigro{
+.color-tigro {
   color: #fff7cc;
 }
-.color-pantro{
+.color-pantro {
   color: #8bb63a;
 }
-.color-chitara{
+.color-chitara {
   color: #e8f0d7;
 }
-.color-raichu{
+.color-raichu {
   color: #1ab21e;
 }
 
@@ -284,42 +351,41 @@ SE REEMPLAZARON POR NOMBRES ABSTRACTOS
   border-color: #bfe4f4 !important;
 }
 .border-color-android18 {
-border-color: #f9eca9 !important;
+  border-color: #f9eca9 !important;
 }
 .border-color-milk {
- border-color: #c4e4e2 !important;
+  border-color: #c4e4e2 !important;
 }
 .border-color-yamcha {
   border-color: #cddfad !important;
 }
 .border-color-freezer {
-border-color: #f1c3dd !important;
+  border-color: #f1c3dd !important;
 }
 .border-color-saitama {
   border-color: #ffc466 !important;
-  }
+}
 .border-color-ash {
   border-color: #e7f4d0 !important;
 }
-.border-color-pikachu{
+.border-color-pikachu {
   border-color: #fafbf6 !important;
 }
-.border-color-leono{
+.border-color-leono {
   border-color: #ffd700 !important;
 }
-.border-color-tigro{
+.border-color-tigro {
   border-color: #fff7cc !important;
 }
-.border-color-pantro{
+.border-color-pantro {
   border-color: #8bb63a !important;
 }
-.border-color-chitara{
+.border-color-chitara {
   border-color: #9ea78d !important;
 }
-.border-color-raichu{
+.border-color-raichu {
   border-color: #1ab21e !important;
 }
-
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -356,10 +422,10 @@ border-color: #f1c3dd !important;
   background-color: #bfe4f4;
 }
 .bgc-android18 {
-background-color: #f9eca9;
+  background-color: #f9eca9;
 }
 .bgc-milk {
- background-color: #c4e4e2;
+  background-color: #c4e4e2;
 }
 .bgc-yamcha {
   background-color: #cddfad;
@@ -368,26 +434,26 @@ background-color: #f9eca9;
   background-color: #f1c3dd;
 }
 .bgc-saitama {
- background-color: #ffc466;
+  background-color: #ffc466;
 }
-.bgc-ash{
+.bgc-ash {
   background-color: #e7f4d0;
 }
-.bgc-pikachu{
+.bgc-pikachu {
   background-color: #fafbf6;
 }
-.bgc-leono{
+.bgc-leono {
   background-color: #ffd700;
 }
-.bgc-tigro{
+.bgc-tigro {
   background-color: #fff7cc;
 }
-.bgc-pantro{
+.bgc-pantro {
   background-color: #8bb63a;
 }
-.bgc-chitara{
+.bgc-chitara {
   background-color: #e8f0d7;
 }
-.bgc-raichu{
+.bgc-raichu {
   background-color: #1ab21e;
 }
