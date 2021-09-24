@@ -1,0 +1,459 @@
+:root {
+  --transparent: transparent;
+  --primary: #73b72b;
+  --secondary: #e72889;
+  --tertiary: #d8edec;
+  --cuaternary: #ebd8e8;
+  --quinary: #e85b9b;
+  --sextario: #f2f7e5;
+  --septenario: #bbdfb7;
+  --lightDark: #9f9f9f;
+  --dark: #55524f;
+  --hardDark: #2e2e2e;
+  --info: #00b0f6;
+  --success: #198754;
+  --danger: #e72e3c;
+  --warning: #f1871d;
+  --light: #e5e9ec;
+  --muted: black;
+  --white: white;
+}
+/* COLORES */
+.color-primary {
+  color: var(--primary);
+}
+.color-secondary {
+  color: var(--secondary);
+}
+.color-tertiary {
+  color: var(--tertiary);
+}
+.color-cuaternary {
+  color: var(--cuaternary);
+}
+.color-quinary {
+  background-color: var(--quinary);
+}
+.color-sextario {
+  background-color: var(--sextario);
+}
+.color-septenario {
+  background-color: var(--septenario);
+}
+.color-white {
+  color: var(--white);
+}
+.color-success {
+  color: var(--success);
+}
+.color-danger {
+  color: var(--danger);
+}
+.color-warning {
+  color: var(--warning);
+}
+.color-light {
+  color: var(--light);
+}
+.color-muted {
+  color: var(--muted);
+  opacity: 0.4;
+}
+.color-lightDark {
+  color: var(--lightDark);
+}
+.color-dark {
+  color: var(--dark);
+}
+.color-hardDark {
+  color: var(--hardDark);
+}
+.color-info {
+  color: var(--info);
+}
+
+/* .color-flecha {
+  color: #00b0f6;
+}
+.color-1 {
+  color: #009ddf;
+}
+.color-2 {
+  color: #e72e3c;
+}
+.color-3 {
+  color: #f1871d;
+} */
+
+/* BACKGROUND */
+
+.bgc-primary {
+  background-color: var(--primary);
+}
+.bgc-secondary {
+  background-color: var(--secondary);
+}
+.bgc-tertiary {
+  background-color: var(--tertiary);
+}
+.bgc-cuaternary {
+  background-color: var(--cuaternary);
+}
+.bgc-quinary {
+  background-color: var(--quinary);
+}
+.bgc-sextario {
+  background-color: var(--sextario);
+}
+.bgc-septenario {
+  background-color: var(--septenario);
+}
+.bgc-white {
+  background-color: var(--white);
+}
+.bgc-success {
+  background-color: var(--success);
+}
+.bgc-danger {
+  background-color: var(--danger);
+}
+.bgc-warning {
+  background-color: var(--warning);
+}
+.bgc-light {
+  background-color: var(--light);
+}
+.bgc-muted {
+  background-color: var(--muted);
+}
+.bgc-lightDark {
+  background-color: var(--lightDark);
+}
+.bgc-dark {
+  background-color: var(--dark);
+}
+.bgc-hardDark {
+  background-color: var(--hardDark);
+}
+.bgc-info {
+  background-color: var(--info);
+}
+
+.bgc-1 {
+  background-color: #009ddf;
+}
+.bgc-2 {
+  background-color: #e72e3c;
+}
+.bgc-3 {
+  background-color: #f1871d;
+}
+.bgc-4 {
+  background-color: #813da0;
+}
+.bgc-5 {
+  background-color: #25beb2;
+}
+.bgc-6 {
+  background-color: #fc8833;
+}
+.bgc-7 {
+  background-color: #12b7ee;
+}
+.bgc-8 {
+  background-color: #f5486c;
+}
+.bgc-color-info {
+  background-color: #00b0f6;
+}
+
+/* BACKGROUND PARA DESARROLLO */
+.bgc-aqua {
+  background-color: aqua;
+}
+.bgc-red {
+  background-color: red;
+}
+.bgc-white {
+  background-color: #ffffff;
+}
+.bgc-yellow {
+  background-color: yellow;
+}
+.bgc-green {
+  background-color: green;
+}
+.bgc-pink {
+  background-color: pink;
+}
+/* END BACKGROUND PARA DESARROLLO */
+
+/* BORDES */
+.border-color-primary {
+  border-color: #73b72b !important;
+}
+.border-color-secondary {
+  border-color: #e72889 !important;
+}
+.border-color-tertiary {
+  border-color: #d8edec !important;
+}
+.border-color-quinary {
+  border-color: #e85b9b !important;
+}
+.border-color-hardDark {
+  border-color: #2e2e2e !important;
+}
+.border-color-dark {
+  border-color: #55524f !important;
+}
+.border-color-lightDark {
+  border-color: #9f9f9f !important;
+}
+/* 
+SE REEMPLAZARON POR NOMBRES ABSTRACTOS
+.border-color-violet {
+  border-color: #8f6a96 !important;
+}
+.border-color-lightbrown {
+  border-color: #cfab89 !important;
+}
+.border-color-lightblue {
+  border-color: #7296ac !important;
+} */
+.border-color-1 {
+  border-color: #009ddf !important;
+}
+.border-color-2 {
+  border-color: #e72e3c !important;
+}
+.border-color-3 {
+  border-color: #f1871d !important;
+}
+.border-color-4 {
+  border-color: #813da0 !important;
+}
+/* ROTULOS */
+.bgc-rotulo-01 {
+  background-color: #7f3ea2;
+}
+.bgc-rotulo-02 {
+  background-color: #f68c39;
+}
+.bgc-rotulo-03 {
+  background-color: #29c4b3;
+}
+
+/* AUXILIARES */
+/* COLORS */
+.color-goku {
+  color: #8f6a96;
+}
+.color-bulma {
+  color: #34c1ee;
+}
+.color-krillin {
+  color: #ddddd4;
+}
+.color-piccolo {
+  color: #4f707f;
+}
+.color-gohan {
+  color: #25beb2;
+}
+.color-vegeta {
+  color: #e85b9b;
+}
+.color-bardock {
+  color: #00b0f6;
+}
+.color-trunks {
+  color: #afdada;
+}
+.color-goten {
+  color: #cfab89;
+}
+.color-yamcha {
+  color: #7296ac;
+}
+.color-tshinhan {
+  color: #bfe4f4;
+}
+.color-android18 {
+  color: #f9eca9;
+}
+.color-milk {
+  color: #c4e4e2;
+}
+.color-yamcha {
+  color: #cddfad;
+}
+.color-freezer {
+  color: #f1c3dd;
+}
+.color-saitama {
+  color: #ffc466;
+}
+.color-ash {
+  color: #e7f4d0;
+}
+.color-pikachu {
+  color: #fafbf6;
+}
+.color-leono {
+  color: #ffd700;
+}
+.color-tigro {
+  color: #fff7cc;
+}
+.color-pantro {
+  color: #8bb63a;
+}
+.color-chitara {
+  color: #e8f0d7;
+}
+.color-raichu {
+  color: #1ab21e;
+}
+
+/* BORDERS */
+.border-color-goku {
+  border-color: #8f6a96 !important;
+}
+.border-color-bulma {
+  border-color: #34c1ee !important;
+}
+.border-color-krillin {
+  border-color: #ddddd4 !important;
+}
+.border-color-piccolo {
+  border-color: #4f707f !important;
+}
+.border-color-gohan {
+  border-color: #25beb2 !important;
+}
+.border-color-vegeta {
+  border-color: #e85b9b !important;
+}
+.border-color-bardock {
+  border-color: #00b0f6 !important;
+}
+.border-color-trunks {
+  border-color: #afdada !important;
+}
+.border-color-goten {
+  border-color: #cfab89 !important;
+}
+.border-color-yamcha {
+  border-color: #7296ac !important;
+}
+.border-color-tshinhan {
+  border-color: #bfe4f4 !important;
+}
+.border-color-android18 {
+  border-color: #f9eca9 !important;
+}
+.border-color-milk {
+  border-color: #c4e4e2 !important;
+}
+.border-color-yamcha {
+  border-color: #cddfad !important;
+}
+.border-color-freezer {
+  border-color: #f1c3dd !important;
+}
+.border-color-saitama {
+  border-color: #ffc466 !important;
+}
+.border-color-ash {
+  border-color: #e7f4d0 !important;
+}
+.border-color-pikachu {
+  border-color: #fafbf6 !important;
+}
+.border-color-leono {
+  border-color: #ffd700 !important;
+}
+.border-color-tigro {
+  border-color: #fff7cc !important;
+}
+.border-color-pantro {
+  border-color: #8bb63a !important;
+}
+.border-color-chitara {
+  border-color: #9ea78d !important;
+}
+.border-color-raichu {
+  border-color: #1ab21e !important;
+}
+
+/* BACKGROUND COLORS */
+.bgc-goku {
+  background-color: #8f6a96;
+}
+.bgc-bulma {
+  background-color: #34c1ee;
+}
+.bgc-krillin {
+  background-color: #ddddd4;
+}
+.bgc-piccolo {
+  background-color: #4f707f;
+}
+.bgc-gohan {
+  background-color: #25beb2;
+}
+.bgc-vegeta {
+  background-color: #e85b9b;
+}
+.bgc-bardock {
+  background-color: #00b0f6;
+}
+.bgc-trunks {
+  background-color: #afdada;
+}
+.bgc-goten {
+  background-color: #cfab89;
+}
+.bgc-yamcha {
+  background-color: #7296ac;
+}
+.bgc-tshinhan {
+  background-color: #bfe4f4;
+}
+.bgc-android18 {
+  background-color: #f9eca9;
+}
+.bgc-milk {
+  background-color: #c4e4e2;
+}
+.bgc-yamcha {
+  background-color: #cddfad;
+}
+.bgc-freezer {
+  background-color: #f1c3dd;
+}
+.bgc-saitama {
+  background-color: #ffc466;
+}
+.bgc-ash {
+  background-color: #e7f4d0;
+}
+.bgc-pikachu {
+  background-color: #fafbf6;
+}
+.bgc-leono {
+  background-color: #ffd700;
+}
+.bgc-tigro {
+  background-color: #fff7cc;
+}
+.bgc-pantro {
+  background-color: #8bb63a;
+}
+.bgc-chitara {
+  background-color: #e8f0d7;
+}
+.bgc-raichu {
+  background-color: #1ab21e;
+}
