@@ -233,6 +233,18 @@ SE REEMPLAZARON POR NOMBRES ABSTRACTOS
 .color-pikachu{
   color: #fafbf6;
 }
+.color-leono{
+  color: #ffd700;
+}
+.color-tigro{
+  color: #fff7cc;
+}
+.color-pantro{
+  color: #8bb63a;
+}
+.color-chitara{
+  color: #e8f0d7;
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -288,6 +300,18 @@ border-color: #f1c3dd
 }
 .border-color-pikachu{
   border-color: #fafbf6;
+}
+.border-color-leono{
+  border-color: #ffd700 !important;
+}
+.border-color-tigro{
+  border-color: #fff7cc !important;
+}
+.border-color-pantro{
+  border-color: #8bb63a !important;
+}
+.border-color-chitara{
+  border-color: #9ea78d !important;
 }
 
 
@@ -345,4 +369,16 @@ background-color: #f9eca9
 }
 .bgc.pikachu{
   background-color: #fafbf6;
+}
+.bgc-leono{
+  background-color: #ffd700;
+}
+.bgc-tigro{
+  background-color: #fff7cc;
+}
+.bgc-pantro{
+  background-color: #8bb63a;
+}
+.bgc-chitara{
+  background-color: #e8f0d7;
 }
