@@ -13,7 +13,7 @@ let Render = {
     },
     {
       id: "im",
-      nombre: "Imagenes",
+      nombre: "Imágenes",
       plantillas: [],
     },
     {
