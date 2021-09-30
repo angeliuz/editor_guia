@@ -36,7 +36,7 @@ render(){
       html+='<div class="p-0 w-100">';
       html+='     <div class="d-block msp-70">';
       html+='         <div class="row p-0 m-0">';
-      html+='             <div data-texto="texto" class="editable col-12 fs-5 f-nunito fw-400 color-2E psp-20 mb-2 justify-content-start text-input" contenteditable="true">';
+      html+='             <div data-texto="texto" class="editable col-12 fs-5 f-nunito fw-400 color-hardDark psp-20 mb-2 justify-content-start text-input" contenteditable="true">';
       html+='                 '+this.data.data.texto+'';
       html+='             </div>';
       html+='             <div class="col-12 fs-5 f-nunito fw-200 psp-20 justify-content-start">';
