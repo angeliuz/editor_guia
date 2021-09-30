@@ -30,7 +30,7 @@ class Rotulo6 extends Titulo {
     let html = Plantilla.renderDrag();
 
     html +='<div class="d-flex w-100 justify-content-center fs-6 fw-600 f-nunito">';
-    html +='  <div data-texto="texto" class="bgc-vegeta color-white pp-5 text-input">'+this.data.data.texto+'</div>';
+    html +='  <div data-texto="texto" class="bgc-vegeta color-white pp-5 min-width-50 text-input">'+this.data.data.texto+'</div>';
     html +='</div>';
 
     return  html;
@@ -40,7 +40,7 @@ class Rotulo6 extends Titulo {
   renderMenu(){
     let html ='';
     html +='<div class="d-flex w-100 justify-content-center fs-6 fw-600 f-nunito">';
-    html +=' <div class="bgc-vegeta color-white pp-5">Pez</div>';
+    html +=' <div class="bgc-vegeta color-white pp-5 min-width-50">Pez</div>';
     html +='</div>';
     return html;
   }
