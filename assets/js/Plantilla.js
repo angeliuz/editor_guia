@@ -382,7 +382,7 @@ let Plantilla = {
           menu: menus["im"],
           data: {
             nombre: "Imagen1",
-            imagen: "titulo_1.png",
+            imagen: "imagenes/img_001.png",
             obj: function () {
               return new Imagen1();
             },
@@ -394,7 +394,7 @@ let Plantilla = {
           menu: menus["im"],
           data: {
             nombre: "Imagen2",
-            imagen: "titulo_1.png",
+            imagen: "imagenes/img_002.png",
             obj: function () {
               return new Imagen2();
             },
@@ -406,7 +406,7 @@ let Plantilla = {
           menu: menus["im"],
           data: {
             nombre: "Imagen3",
-            imagen: "titulo_1.png",
+            imagen: "imagenes/img_003.png",
             obj: function () {
               return new Imagen3();
             },
@@ -418,7 +418,7 @@ let Plantilla = {
           menu: menus["im"],
           data: {
             nombre: "Imagen4",
-            imagen: "titulo_1.png",
+            imagen: "imagenes/img_004.png",
             obj: function () {
               return new Imagen4();
             },
@@ -430,7 +430,7 @@ let Plantilla = {
           menu: menus["im"],
           data: {
             nombre: "Imagen5",
-            imagen: "titulo_1.png",
+            imagen: "imagenes/img_005.png",
             obj: function () {
               return new Imagen5();
             },

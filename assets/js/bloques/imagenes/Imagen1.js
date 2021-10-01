@@ -62,25 +62,50 @@ class Imagen1 extends Imagen {
     let border = '';
     let data = this.data.columnas[0];
     
-
     html+='<div class="p-0 w-100">';
-    html+='     <div class="d-block msp-70 mep-20">';
-    html+='         <div class="row p-0 m-0 row-column">';
-    html+='             <div data-docid="'+data.doc_id+'" class="col-img col '+border+'">';
-    html+='<div class="pt-2 d-flex '+data.alineacion+'" style="position:relative;">';
+    html+='<div class="d-block msp-70 mep-20">';
+    html+='<div class="row p-0 m-0 row-column">';
+
+    html+='  <div data-docid="'+data.doc_id+'" class="col-img col '+border+'">';
+    html+='    <div class="pt-2 d-flex '+data.alineacion+'" style="position:relative;">';
     html+=this.renderLoading()
     html+=this.renderNav(data);
     html+=this.renderForm()
-    html+='                 <img class="border border-0 border-secondary img-columna" src="'+data.ruta+'" width="'+data.porcentaje+'%">';
-    html+='</div>';
-    html+='<i class="color-primary fas fa-sort-up mt-1 me-1 d-inline-block align-top"></i>';
-    html+='<div data-texto="titulo" class="d-inline-block  w-75 text-input">';
-    html+=data.titulo;
-    html+='    </div>';
-    html+='             </div>';
-    html+='         </div>';
+    html+='     <img class="border border-0 border-color-dark img-columna" src="'+data.ruta+'" width="'+data.porcentaje+'%">';
     html+='     </div>';
+    html+='    <div class="d-flex pt-2" style="position:relative;">';
+    html+='      <i class="color-primary fs-6 fas fa-sort-up mt-1 me-1 d-inline-block align-top"></i>';
+    html+='      <div data-texto="titulo" class="w-100 f-nunito fs-6 fw-300 lh-sm text-input">';
+    html+=data.titulo;
+    html+='      </div>';
+    html+='    </div>';
+    html+='  </div>';
+
     html+='</div>';
+    html+='</div>';
+    html+='</div>';
+
+
+
+
+    // html+='<div class="p-0 w-100">';
+    // html+='     <div class="d-block msp-70 mep-20">';
+    // html+='         <div class="row p-0 m-0 row-column">';
+    // html+='             <div data-docid="'+data.doc_id+'" class="col-img col '+border+'">';
+    // html+='<div class="pt-2 d-flex '+data.alineacion+'" style="position:relative;">';
+    // html+=this.renderLoading()
+    // html+=this.renderNav(data);
+    // html+=this.renderForm()
+    // html+='                 <img class="border border-0 border-secondary img-columna" src="'+data.ruta+'" width="'+data.porcentaje+'%">';
+    // html+='</div>';
+    // html+='<i class="color-primary fas fa-sort-up mt-1 me-1 d-inline-block align-top"></i>';
+    // html+='<div data-texto="titulo" class="d-inline-block  w-75 text-input">';
+    // html+=data.titulo;
+    // html+='    </div>';
+    // html+='             </div>';
+    // html+='         </div>';
+    // html+='     </div>';
+    // html+='</div>';
 
     return  html;
   }
