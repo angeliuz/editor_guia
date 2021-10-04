@@ -98,8 +98,8 @@ let Render = {
     return html;
   },
   renderPlantilla: function (data) {
-    console.log("data");
-    console.log(data);
+    // console.log("data");
+    // console.log(data);
     let html = "";
     let plantillas = data.plantillas;
 
